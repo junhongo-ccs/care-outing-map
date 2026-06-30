@@ -1,0 +1,1551 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-30T08:25:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 441655802,
+  "lat": 35.7128522,
+  "lon": 139.7747663,
+  "tags": {
+    "addr:block_number": "2",
+    "addr:neighbourhood": "1",
+    "addr:postcode": "110-0007",
+    "addr:province": "東京都",
+    "addr:quarter": "上野公園",
+    "addr:suburb": "台東区",
+    "contact:facebook": "uenomori",
+    "contact:twitter": "UenoMoriMuseum",
+    "fee": "yes",
+    "museum": "art",
+    "name": "上野の森美術館",
+    "name:en": "The Ueno Royal Museum",
+    "name:es": "Museo real Ueno",
+    "name:fr": "Le musée royal Ueno",
+    "name:ja": "上野の森美術館",
+    "name:ko": "우에노 모리 미술관",
+    "opening_hours": "10:00-17:00",
+    "source": "KSJ2",
+    "tourism": "museum",
+    "website": "https://www.ueno-mori.org/",
+    "wheelchair": "yes",
+    "wikidata": "Q11360245"
+  }
+},
+{
+  "type": "node",
+  "id": 1420785063,
+  "lat": 35.7191920,
+  "lon": 139.7719324,
+  "tags": {
+    "addr:block_number": "8",
+    "addr:neighbourhood": "12",
+    "addr:postcode": "110-8714",
+    "addr:province": "東京都",
+    "addr:quarter": "上野公園",
+    "addr:suburb": "台東区",
+    "alt_name:en": "Tokyo University of the Arts",
+    "email": "kanri@ml.geidai.ac.jp",
+    "name": "東京藝術大学大学美術館",
+    "name:en": "The University Art Museum",
+    "name:ja_rm": "Tokyo Geijutsu Daigaku, Daigaku Bijutsukan",
+    "note": "National-Land Numerical Information (Public Facility) 2006, MLIT Japan",
+    "note:ja": "国土数値情報（公共施設データ）平成19年 国土交通省",
+    "official_name:en": "The University Art Museum, Tokyo University of the Arts",
+    "opening_hours": "Tu-Su 10:00-17:00",
+    "phone": "+81 50-5541-8600",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-P02-v2_0.html",
+    "tourism": "museum",
+    "website": "https://museum.geidai.ac.jp/",
+    "wikidata": "Q11525123"
+  }
+},
+{
+  "type": "node",
+  "id": 2264347272,
+  "lat": 35.7120431,
+  "lon": 139.7737040,
+  "tags": {
+    "access": "yes",
+    "addr:floor": "0",
+    "amenity": "toilets",
+    "check_date": "2025-12-12",
+    "fee": "no",
+    "level": "0",
+    "toilets:disposal": "flush",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2264347437,
+  "lat": 35.7144121,
+  "lon": 139.7737452,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "check_date": "2025-04-15",
+    "check_date:wheelchair": "2025-04-15",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2264347756,
+  "lat": 35.7172591,
+  "lon": 139.7744461,
+  "tags": {
+    "amenity": "toilets",
+    "mapillary": "1121652275011165",
+    "ref": "5",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2264347890,
+  "lat": 35.7161866,
+  "lon": 139.7737445,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2265420927,
+  "lat": 35.7096530,
+  "lon": 139.7709200,
+  "tags": {
+    "amenity": "toilets",
+    "check_date": "2024-06-23",
+    "fee": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2265424222,
+  "lat": 35.7097480,
+  "lon": 139.7703430,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "male": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2265563798,
+  "lat": 35.7183420,
+  "lon": 139.7732160,
+  "tags": {
+    "amenity": "toilets",
+    "check_date": "2024-08-17",
+    "fee": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2295399955,
+  "lat": 35.7190741,
+  "lon": 139.7751400,
+  "tags": {
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 2768956946,
+  "lat": 35.7194850,
+  "lon": 139.7737520,
+  "tags": {
+    "amenity": "library",
+    "check_date": "2025-11-23",
+    "name": "国際こども図書館",
+    "name:en": "International Library of Children's Literature",
+    "name:es": "Biblioteca Internacional de Literatura Infantil",
+    "name:zh": "国际儿童图书馆",
+    "wikidata": "Q4346431"
+  }
+},
+{
+  "type": "node",
+  "id": 3093498530,
+  "lat": 35.7124530,
+  "lon": 139.7822230,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "fee": "no",
+    "toilets:disposal": "flush",
+    "toilets:num_chambers": "1",
+    "toilets:position": "squat;urinal",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3259269168,
+  "lat": 35.7109761,
+  "lon": 139.7738619,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "check_date": "2026-02-04",
+    "fee": "no",
+    "name": "西郷銅像下公衆トイレ",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4178730328,
+  "lat": 35.7128698,
+  "lon": 139.7765150,
+  "tags": {
+    "amenity": "toilets",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4772760706,
+  "lat": 35.7202847,
+  "lon": 139.7765440,
+  "tags": {
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 4787165821,
+  "lat": 35.7154969,
+  "lon": 139.7724556,
+  "tags": {
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 4787165823,
+  "lat": 35.7157362,
+  "lon": 139.7701836,
+  "tags": {
+    "amenity": "toilets",
+    "check_date": "2025-01-16",
+    "fee": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4787165824,
+  "lat": 35.7179894,
+  "lon": 139.7702784,
+  "tags": {
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4947850854,
+  "lat": 35.7126533,
+  "lon": 139.7799259,
+  "tags": {
+    "name": "たいとうアートギャラリー",
+    "tourism": "gallery",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4984528570,
+  "lat": 35.7161215,
+  "lon": 139.7778918,
+  "tags": {
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 4987573179,
+  "lat": 35.7112349,
+  "lon": 139.7730445,
+  "tags": {
+    "name": "びわ湖長浜観音ハウス",
+    "tourism": "gallery",
+    "website": "http://www.nagahama-kannon-house.jp/"
+  }
+},
+{
+  "type": "node",
+  "id": 4987598752,
+  "lat": 35.7158231,
+  "lon": 139.7725063,
+  "tags": {
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 4987661883,
+  "lat": 35.7140299,
+  "lon": 139.7712693,
+  "tags": {
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 5040902655,
+  "lat": 35.7130941,
+  "lon": 139.7721239,
+  "tags": {
+    "amenity": "toilets",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5235896225,
+  "lat": 35.7089044,
+  "lon": 139.7708217,
+  "tags": {
+    "amenity": "arts_centre",
+    "level": "0",
+    "name": "アートスペース喜屋",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 5297588279,
+  "lat": 35.7058507,
+  "lon": 139.7700079,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "level": "-1",
+    "source": "survey",
+    "toilets:changing_table": "no",
+    "toilets:handwashing": "yes",
+    "toilets:paper_supplied": "yes",
+    "wheelchair": "no",
+    "wheelchair:description": "フロアへは階段のみ、入り口にも3段あり。北の出入口にはバリアフリートイレ・経路あり"
+  }
+},
+{
+  "type": "node",
+  "id": 5718105216,
+  "lat": 35.7223874,
+  "lon": 139.7738145,
+  "tags": {
+    "amenity": "toilets",
+    "name": "寛永寺前公衆トイレ"
+  }
+},
+{
+  "type": "node",
+  "id": 6172100644,
+  "lat": 35.7112985,
+  "lon": 139.7825664,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "description": "渋谷方面プラットフォームのトイレ",
+    "fee": "no",
+    "layer": "-1",
+    "level": "-1",
+    "toilets:disposal": "flush",
+    "toilets:position": "seated;urinal",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6199799686,
+  "lat": 35.7077711,
+  "lon": 139.7729984,
+  "tags": {
+    "amenity": "toilets",
+    "layer": "-1",
+    "level": "-1"
+  }
+},
+{
+  "type": "node",
+  "id": 6204348973,
+  "lat": 35.7118860,
+  "lon": 139.7762665,
+  "tags": {
+    "amenity": "toilets",
+    "unisex": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6204388730,
+  "lat": 35.7115553,
+  "lon": 139.7772361,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "indoor": "yes",
+    "level": "-1",
+    "male": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6204388737,
+  "lat": 35.7114643,
+  "lon": 139.7771119,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "female": "yes",
+    "indoor": "yes",
+    "level": "-1"
+  }
+},
+{
+  "type": "node",
+  "id": 6204388738,
+  "lat": 35.7115134,
+  "lon": 139.7771753,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "indoor": "yes",
+    "level": "-1",
+    "unisex": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6261728292,
+  "lat": 35.7142739,
+  "lon": 139.7848829,
+  "tags": {
+    "name": "ギャラリー心",
+    "name:en": "Gallery Shin",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 6744163197,
+  "lat": 35.7110280,
+  "lon": 139.7736849,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "0",
+    "toilets:access": "yes",
+    "toilets:disposal": "flush",
+    "toilets:position": "seated",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6744163202,
+  "lat": 35.7112229,
+  "lon": 139.7735602,
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "level": "0",
+    "toilets:access": "yes",
+    "toilets:disposal": "flush",
+    "toilets:wheelchair": "designated",
+    "wheelchair": "designated"
+  }
+},
+{
+  "type": "node",
+  "id": 7248719579,
+  "lat": 35.7126203,
+  "lon": 139.7766789,
+  "tags": {
+    "amenity": "toilets",
+    "indoor": "yes",
+    "level": "-1",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7298131181,
+  "lat": 35.7066195,
+  "lon": 139.7721994,
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8491447527,
+  "lat": 35.7220412,
+  "lon": 139.7705770,
+  "tags": {
+    "level": "0",
+    "name": "K's Green Gallery",
+    "tourism": "gallery"
+  }
+},
+{
+  "type": "node",
+  "id": 9688905438,
+  "lat": 35.7205137,
+  "lon": 139.7787910,
+  "tags": {
+    "amenity": "toilets"
+  }
+},
+{
+  "type": "node",
+  "id": 11125062244,
+  "lat": 35.7136298,
+  "lon": 139.7759152,
+  "tags": {
+    "amenity": "toilets",
+    "check_date": "2023-08-17"
+  }
+},
+{
+  "type": "node",
+  "id": 11880180711,
+  "lat": 35.7175451,
+  "lon": 139.7760070,
+  "tags": {
+    "amenity": "toilets",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11900345791,
+  "lat": 35.7189843,
+  "lon": 139.7836028,
+  "tags": {
+    "amenity": "toilets",
+    "name": "北上野一丁目 公衆トイレ",
+    "name:en": "Kitaueno-itchome toilet",
+    "source": "Bing"
+  }
+},
+{
+  "type": "node",
+  "id": 12116276639,
+  "lat": 35.7187438,
+  "lon": 139.7743251,
+  "tags": {
+    "access": "permissive",
+    "amenity": "toilets",
+    "check_date": "2024-08-17",
+    "toilets:disposal": "flush"
+  }
+},
+{
+  "type": "node",
+  "id": 13271409079,
+  "lat": 35.7120795,
+  "lon": 139.7727882,
+  "tags": {
+    "amenity": "toilets",
+    "toilets:disposal": "flush",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13588730450,
+  "lat": 35.7076354,
+  "lon": 139.7752774,
+  "tags": {
+    "name": "QUARK MUSEUM",
+    "name:en": "QUARK MUSEUM",
+    "tourism": "museum",
+    "website": "https://www.quarkmuseum.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13881133162,
+  "lat": 35.7179853,
+  "lon": 139.7733061,
+  "tags": {
+    "museum": "music",
+    "name": "旧東京音楽学校奏楽堂",
+    "name:en": "Sogakudo of the Former Tokyo Music School",
+    "tourism": "museum",
+    "website": "https://www.taitogeibun.net/sougakudou/#"
+  }
+},
+{
+  "type": "way",
+  "id": 33439660,
+  "center": {
+    "lat": 35.7190658,
+    "lon": 139.7758162
+  },
+  "tags": {
+    "addr:block_number": "13",
+    "addr:city": "台東区",
+    "addr:housenumber": "9",
+    "addr:neighbourhood": "上野公園",
+    "addr:postcode": "110-8712",
+    "addr:province": "東京都",
+    "check_date": "2026-04-10",
+    "contact:facebook": "TokyoNationalMuseum",
+    "contact:instagram": "tnm_pr",
+    "contact:tripadvisor": "320638",
+    "contact:twitter": "TNM_PR",
+    "contact:website": "https://www.tnm.jp/",
+    "contact:youtube": "UCi4kijTbqPOh1LPN2f0eQYg",
+    "fee": "yes",
+    "museum": "art",
+    "name": "東京国立博物館",
+    "name:de": "Nationalmuseum Tokio",
+    "name:en": "Tokyo National Museum",
+    "name:es": "Museo Nacional de Tokio",
+    "name:et": "Tōkyō Rahvusmuuseum",
+    "name:fr": "Musée national de Tokyo",
+    "name:it": "Museo Nazionale di Tokyo",
+    "name:ja-Hira": "とうきょうこくりつはくぶつかん",
+    "name:ja-Latn": "Tōkyō Kokuritsu-hakubutsukan",
+    "name:ko": "도쿄국립박물관",
+    "name:ru": "Токийский национальный музей",
+    "opening_hours": "Mo-Su 09:30-17:00",
+    "operator": "国立文化財機構",
+    "operator:wikidata": "Q11421271",
+    "operator:wikipedia": "ja:国立文化財機構",
+    "phone": "+81 3-3822-1111",
+    "short_name": "TNM;東博",
+    "short_name:ja-Latn": "Tōhaku",
+    "start_date": "1872-04-17",
+    "tourism": "museum",
+    "website": "https://www.tnm.jp/",
+    "wikidata": "Q653433",
+    "wikimedia_commons": "Category:Tokyo National Museum",
+    "wikipedia": "ja:東京国立博物館"
+  }
+},
+{
+  "type": "way",
+  "id": 33440458,
+  "center": {
+    "lat": 35.7171071,
+    "lon": 139.7731771
+  },
+  "tags": {
+    "contact:facebook": "TokyoMetropolitanArtMuseum",
+    "contact:instagram": "tokyometropolitanartmuseum",
+    "contact:twitter": "tobikan_en",
+    "contact:youtube": "tokyometropolitanartmuseum7280",
+    "fax": "+81 3-3823-6920",
+    "museum": "art",
+    "name": "東京都美術館",
+    "name:en": "Tokyo Metropolitan Art Museum",
+    "name:es": "Museo Metropolitano de Tokyo",
+    "name:fr": "Musée d'art de la ville de Tokyo",
+    "name:ja": "東京都美術館",
+    "name:ja-Hira": "とうきょうとびじゅつかん",
+    "name:ja_rm": "Tōkyōto Bijutsukan",
+    "name:ko": "도쿄도미술관",
+    "name:ru": "Токийский художественный музей",
+    "opening_hours": "09:30-17:30",
+    "phone": "+81 3-3823-6921",
+    "tourism": "museum",
+    "website": "https://www.tobikan.jp/",
+    "wheelchair": "yes",
+    "wikidata": "Q864957",
+    "wikipedia": "ja:東京都美術館"
+  }
+},
+{
+  "type": "way",
+  "id": 89041321,
+  "center": {
+    "lat": 35.7178490,
+    "lon": 139.7768698
+  },
+  "tags": {
+    "building": "public",
+    "check_date": "2026-04-10",
+    "check_date:opening_hours": "2026-04-10",
+    "contact:website": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=hall&hid=13",
+    "fee": "yes",
+    "name": "東洋館",
+    "name:en": "Toyokan (Asian Gallery)",
+    "name:es": "Toyokan (Galería de Asia)",
+    "name:fr": "Galerie asiatique",
+    "name:ja-Hira": "とうようかん",
+    "name:ja_rm": "Tōyō-kan",
+    "name:ko": "동양관",
+    "opening_hours": "Mo-Su 09:30-17:00",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 145344062,
+  "center": {
+    "lat": 35.7186784,
+    "lon": 139.7740942
+  },
+  "tags": {
+    "building": "public",
+    "building:levels": "1",
+    "check_date": "2026-04-10",
+    "check_date:opening_hours": "2026-04-10",
+    "fee": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "法隆寺宝物館",
+    "name:en": "The Gallery of Horyuji Treasures",
+    "name:es": "Galería de tesoros de Horyuji",
+    "name:etymology:wikidata": "Q261932",
+    "name:etymology:wikipedia": "ja:法隆寺",
+    "name:fr": "Galerie des trésors du temple Hōryū",
+    "name:ja-Hira": "ほうりゅうじほうもつかん",
+    "name:ja-Latn": "Hōryūji hōmotsu-kan",
+    "name:ko": "호류지 보물관",
+    "name:zh": "法隆寺宝物馆",
+    "opening_hours": "Mo-Su 09:30-17:00",
+    "tourism": "museum",
+    "wikidata": "Q123195811",
+    "wikimedia_commons": "Category:The Gallery of Horyuji Treasures"
+  }
+},
+{
+  "type": "way",
+  "id": 145344144,
+  "center": {
+    "lat": 35.7150826,
+    "lon": 139.7741847
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "yes",
+    "changing_table": "yes",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 145344149,
+  "center": {
+    "lat": 35.7099220,
+    "lon": 139.7722538
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "toilets",
+    "building:levels": "1",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "roof:shape": "gabled",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 145344157,
+  "center": {
+    "lat": 35.7149342,
+    "lon": 139.7748887
+  },
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 145344185,
+  "center": {
+    "lat": 35.7186128,
+    "lon": 139.7752405
+  },
+  "tags": {
+    "building": "public",
+    "check_date": "2026-04-10",
+    "check_date:opening_hours": "2026-04-10",
+    "name": "表慶館",
+    "name:en": "Hyokeikan",
+    "name:es": "Hyokeikan",
+    "name:fr": "Hyōkeikan",
+    "name:ja-Hira": "ひょうけいかん",
+    "name:ja-Latn": "Hyōkei-kan",
+    "name:ko": "효케이관",
+    "opening_hours": "Mo-Su 09:30-17:00",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 145344198,
+  "center": {
+    "lat": 35.7102385,
+    "lon": 139.7727469
+  },
+  "tags": {
+    "addr:block_number": "2",
+    "addr:city": "台東区",
+    "addr:country": "JP",
+    "addr:housenumber": "1",
+    "addr:neighbourhood": "上野公園",
+    "addr:postcode": "110-0007",
+    "addr:province": "東京都",
+    "building": "museum",
+    "building:levels": "3",
+    "fax": "+81 3-3823-3870",
+    "fee": "yes",
+    "museum": "local;history",
+    "name": "したまちミュージアム",
+    "name:en": "Shitamachi Museum",
+    "name:es": "Museo de Shitamachi",
+    "name:fr": "Musée Shitamachi",
+    "name:ja-Hira": "したまちミュージアム",
+    "name:ja_rm": "Shitamachi Museum",
+    "name:ru": "Этнографический музей Ситамати",
+    "old_name:ja": "下町風俗資料館",
+    "old_name:ja-Hira": "したまちふうぞくしりょうかん",
+    "old_name:ja_rm": "Shitamachi Fūzoku Shiryōkan",
+    "phone": "+81 3-3823-7451",
+    "tourism": "museum",
+    "website": "https://www.taitogeibun.net/shitamachi/",
+    "wheelchair": "yes",
+    "wikidata": "Q3915464",
+    "wikipedia": "ja:下町風俗資料館"
+  }
+},
+{
+  "type": "way",
+  "id": 152340249,
+  "center": {
+    "lat": 35.7189039,
+    "lon": 139.7733129
+  },
+  "tags": {
+    "building": "yes",
+    "museum": "art",
+    "name": "黒田記念館",
+    "name:en": "Kuroda Memorial Hall",
+    "source": "Bing, 2007-03",
+    "tourism": "museum",
+    "website": "https://www.tobunken.go.jp/kuroda/index_e.html",
+    "wikidata": "Q123195608",
+    "wikipedia": "en:Kuroda Memorial Hall"
+  }
+},
+{
+  "type": "way",
+  "id": 166180328,
+  "center": {
+    "lat": 35.7057601,
+    "lon": 139.7803272
+  },
+  "tags": {
+    "addr:block_number": "21",
+    "addr:city": "台東区",
+    "addr:neighbourhood": "4丁目",
+    "addr:quarter": "台東",
+    "leisure": "park",
+    "name": "竹町公園",
+    "name:en": "Takecho Park",
+    "name:ja": "竹町公園",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 166180330,
+  "center": {
+    "lat": 35.7056938,
+    "lon": 139.7839004
+  },
+  "tags": {
+    "dog": "yes",
+    "leisure": "park",
+    "name": "小島公園",
+    "name:en": "Kojima Park"
+  }
+},
+{
+  "type": "way",
+  "id": 175058778,
+  "center": {
+    "lat": 35.7093332,
+    "lon": 139.7796967
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "西町公園",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 203960902,
+  "center": {
+    "lat": 35.7159919,
+    "lon": 139.7765927
+  },
+  "tags": {
+    "addr:block_number": "20",
+    "addr:neighbourhood": "7",
+    "addr:postcode": "110-8718",
+    "addr:province": "東京都",
+    "addr:quarter": "上野公園",
+    "addr:suburb": "台東区",
+    "check_date": "2026-04-11",
+    "check_date:opening_hours": "2026-04-11",
+    "museum": "science;natural",
+    "name": "国立科学博物館",
+    "name:de": "Nationalmuseum der Naturwissenschaften",
+    "name:en": "National Museum of Nature and Science",
+    "name:es": "Museo Nacional de Ciencia de Japón",
+    "name:fr": "Musée national de la nature et des sciences de Tokyo",
+    "name:ja": "国立科学博物館",
+    "name:ja-Hira": "こくりつかがくはくぶつかん",
+    "name:ja_rm": "Kokuritsu Kagaku Hakubutsukan",
+    "name:ko": "국립과학박물관",
+    "name:ru": "Национальный музей природы и науки",
+    "note": "National-Land Numerical Information (Public Facility) 2006, MLIT Japan",
+    "note:ja": "国土数値情報（公共施設データ）平成19年 国土交通省",
+    "opening_hours": "Tu-Su 09:00-17:00",
+    "source": "GSImaps/std;Bing",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-P02-v2_0.html",
+    "tourism": "museum",
+    "website": "https://www.kahaku.go.jp/",
+    "wheelchair": "yes",
+    "wikidata": "Q74940",
+    "wikipedia": "ja:国立科学博物館"
+  }
+},
+{
+  "type": "way",
+  "id": 203960903,
+  "center": {
+    "lat": 35.7154106,
+    "lon": 139.7758520
+  },
+  "tags": {
+    "addr:block_number": "7",
+    "addr:neighbourhood": "7",
+    "addr:postcode": "110-0007",
+    "addr:province": "東京都",
+    "addr:quarter": "上野公園",
+    "addr:suburb": "台東区",
+    "architect": "Le Corbusier; 前川國男",
+    "architect:ja-Latn": "Le Corbusier;Kunio Maekawa",
+    "architect:wikidata": "Q4724;Q129938",
+    "charge:adult": "500 JPY",
+    "charge:child": "0 JPY",
+    "charge:disabled": "0 JPY",
+    "charge:student": "250 JPY",
+    "contact:email": "info@nmwa.gov.jp",
+    "contact:facebook": "NationalMuseumofWesternArt",
+    "contact:fax": "+81 3-3828-5135",
+    "contact:tripadvisor": "479268",
+    "contact:twitter": "NMWATokyo",
+    "contact:website": "https://www.nmwa.go.jp/",
+    "contact:youtube": "UCFtBgJ1ArMLvcpQeT2vNupQ",
+    "fee": "yes",
+    "museum": "art",
+    "name": "国立西洋美術館",
+    "name:de": "Nationalmuseum für westliche Kunst",
+    "name:en": "The National Museum of Western Art",
+    "name:es": "Museo nacional de arte occidental",
+    "name:fr": "Musée national de l'art occidental",
+    "name:id": "Museum Nasional Seni Barat",
+    "name:it": "Museo nazionale d'arte occidentale",
+    "name:ja": "国立西洋美術館",
+    "name:ja-Hira": "こくりつせいようびじゅつかん",
+    "name:ja-Latn": "Kokuritsu seiyō bijutsukan",
+    "name:ko": "국립서양미술관",
+    "name:ru": "Национальный музей западного искусства",
+    "name:zh": "國立西洋美術館",
+    "note": "National-Land Numerical Information (Public Facility) 2006, MLIT Japan",
+    "note:ja": "国土数値情報（公共施設データ）平成19年 国土交通省",
+    "opening_hours": "Su,Tu-Th 09:30-17:30;Fr-Sa 09:30-20:00;Mo off;Dec 28-Jan 01 off",
+    "operator": "国立美術館",
+    "operator:en": "National Museum of Art",
+    "operator:wikidata": "Q24074189",
+    "payment:american_express": "yes",
+    "payment:diners_club": "yes",
+    "payment:discover_card": "yes",
+    "payment:jcb": "yes",
+    "payment:mastercard": "yes",
+    "payment:suica": "yes",
+    "payment:uc_card": "yes",
+    "payment:unionpay": "yes",
+    "payment:visa": "yes",
+    "short_name": "西美",
+    "short_name:en": "NMWA",
+    "short_name:ja-Hira": "せいび",
+    "short_name:ja-Latn": "Seibi",
+    "source": "KSJ2;Bing",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-P02-v2_0.html",
+    "start_date": "1959-06-10",
+    "tourism": "museum",
+    "wheelchair": "yes",
+    "wikidata": "Q1362629",
+    "wikimedia_commons": "Category:National Museum of Western Art, Tokyo",
+    "wikipedia": "ja:国立西洋美術館"
+  }
+},
+{
+  "type": "way",
+  "id": 229545036,
+  "center": {
+    "lat": 35.7065559,
+    "lon": 139.7848709
+  },
+  "tags": {
+    "addr:housenumber": "20",
+    "amenity": "toilets",
+    "building": "yes",
+    "building:levels": "1",
+    "name": "小島二丁目交番裏公衆トイレ",
+    "name:en": "Kojima-nichome Koban-ura Toilet",
+    "source": "survey",
+    "source:geometry": "Bing;GSI/KIBAN 25000; NARO",
+    "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN"
+  }
+},
+{
+  "type": "way",
+  "id": 231210784,
+  "center": {
+    "lat": 35.7091608,
+    "lon": 139.7798623
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "yes",
+    "source": "GSI/KIBAN 25000; NARO",
+    "source_ref": "http://wiki.osm.org/wiki/GSI_KIBAN",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 238465930,
+  "center": {
+    "lat": 35.7211092,
+    "lon": 139.7795129
+  },
+  "tags": {
+    "addr:block_number": "3",
+    "addr:housenumber": "17",
+    "addr:neighbourhood": "1丁目",
+    "leisure": "park",
+    "name": "鶯谷公園",
+    "name:en": "Uguisudani Park"
+  }
+},
+{
+  "type": "way",
+  "id": 304931281,
+  "center": {
+    "lat": 35.7124836,
+    "lon": 139.7806814
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "公徳公園",
+    "smoking": "yes",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 401249008,
+  "center": {
+    "lat": 35.7130983,
+    "lon": 139.7760018
+  },
+  "tags": {
+    "access": "customers",
+    "amenity": "toilets",
+    "indoor": "room",
+    "level": "1",
+    "room": "toilets"
+  }
+},
+{
+  "type": "way",
+  "id": 438797308,
+  "center": {
+    "lat": 35.7144067,
+    "lon": 139.7766231
+  },
+  "tags": {
+    "amenity": "toilets",
+    "indoor": "area",
+    "level": "3"
+  }
+},
+{
+  "type": "way",
+  "id": 505256902,
+  "center": {
+    "lat": 35.7063549,
+    "lon": 139.7774652
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "御徒町公園",
+    "name:en": "Okachimachi Park",
+    "name:es": "Parque Okachimachi",
+    "wikidata": "Q42311721",
+    "wikimedia_commons": "Category:Okachimachi Park (Taito)"
+  }
+},
+{
+  "type": "way",
+  "id": 507464631,
+  "center": {
+    "lat": 35.7066203,
+    "lon": 139.7722450
+  },
+  "tags": {
+    "access": "yes",
+    "addr:block_number": "19",
+    "addr:city": "台東区",
+    "addr:housenumber": "3",
+    "addr:neighbourhood": "1丁目",
+    "addr:postcode": "110-0005",
+    "addr:province": "東京都",
+    "addr:quarter": "上野",
+    "amenity": "toilets",
+    "building": "yes",
+    "building:levels": "1",
+    "changing_table": "yes",
+    "fee": "no",
+    "operator": "台東区役所公園課",
+    "phone": "+81 3 5246 1321",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 509537318,
+  "center": {
+    "lat": 35.7168789,
+    "lon": 139.7721259
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 509537319,
+  "center": {
+    "lat": 35.7167829,
+    "lon": 139.7720981
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 509544643,
+  "center": {
+    "lat": 35.7139861,
+    "lon": 139.7713838
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "yes",
+    "building:levels": "1",
+    "source": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 509851094,
+  "center": {
+    "lat": 35.7161055,
+    "lon": 139.7750808
+  },
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "mapillary": "467415041221207",
+    "ref": "4",
+    "source": "bing",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 511390670,
+  "center": {
+    "lat": 35.7171559,
+    "lon": 139.7712394
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "yes",
+    "changing_table": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 514394036,
+  "center": {
+    "lat": 35.7155632,
+    "lon": 139.7701378
+  },
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "building:levels": "1",
+    "changing_table": "yes",
+    "fee": "no",
+    "female": "yes",
+    "male": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 519593145,
+  "center": {
+    "lat": 35.7062346,
+    "lon": 139.7778611
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 526173169,
+  "center": {
+    "lat": 35.7212144,
+    "lon": 139.7794900
+  },
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "unisex": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 529344973,
+  "center": {
+    "lat": 35.7055767,
+    "lon": 139.7804545
+  },
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 583977925,
+  "center": {
+    "lat": 35.7055552,
+    "lon": 139.7842415
+  },
+  "tags": {
+    "access": "yes",
+    "amenity": "toilets",
+    "building": "yes",
+    "fee": "no",
+    "name": "Kojima Park toilet",
+    "toilets:disposal": "flush",
+    "toilets:position": "squat;seated;urinal",
+    "unisex": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 585320110,
+  "center": {
+    "lat": 35.7229349,
+    "lon": 139.7702460
+  },
+  "tags": {
+    "amenity": "toilets",
+    "building": "toilets",
+    "fee": "no",
+    "name": "谷中墓地入口 公衆トイレ",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 587787102,
+  "center": {
+    "lat": 35.7178713,
+    "lon": 139.7845372
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 587787109,
+  "center": {
+    "lat": 35.7165841,
+    "lon": 139.7837306
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "山伏公園"
+  }
+},
+{
+  "type": "way",
+  "id": 587789975,
+  "center": {
+    "lat": 35.7133885,
+    "lon": 139.7834545
+  },
+  "tags": {
+    "leisure": "park"
+  }
+},
+{
+  "type": "way",
+  "id": 744343955,
+  "center": {
+    "lat": 35.7067506,
+    "lon": 139.7741441
+  },
+  "tags": {
+    "addr:block_number": "26",
+    "addr:city": "台東区",
+    "addr:neighbourhood": "3",
+    "addr:postcode": "110-0005",
+    "addr:province": "東京都",
+    "addr:quarter": "上野",
+    "leisure": "park",
+    "name": "おかちまちパンダ広場"
+  }
+},
+{
+  "type": "way",
+  "id": 744343956,
+  "center": {
+    "lat": 35.7067431,
+    "lon": 139.7741441
+  },
+  "tags": {
+    "addr:block_number": "26",
+    "addr:city": "台東区",
+    "addr:neighbourhood": "3",
+    "addr:postcode": "110-0005",
+    "addr:province": "東京都",
+    "addr:quarter": "上野",
+    "leisure": "park",
+    "name": "御徒町南口駅前広場"
+  }
+},
+{
+  "type": "way",
+  "id": 821539905,
+  "center": {
+    "lat": 35.7217513,
+    "lon": 139.7705016
+  },
+  "tags": {
+    "addr:postcode": "110-0001",
+    "building": "yes",
+    "email": "info@scaithebathhouse.com",
+    "historic": "building",
+    "name": "スカイ ザ バスハウス",
+    "name:en": "SCAI THE BATHHOUSE",
+    "opening_hours": "Tu-Sa 12:00-18:00",
+    "tourism": "gallery",
+    "website": "https://www.scaithebathhouse.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 914133670,
+  "center": {
+    "lat": 35.7213055,
+    "lon": 139.7710053
+  },
+  "tags": {
+    "fee": "no",
+    "museum": "history",
+    "name": "下町風俗資料館付設展示場",
+    "name:en": "Shitamachi Museum Exhibition Hall",
+    "old_name": "旧吉田屋酒店",
+    "old_name:en": "Yoshidaya Liquor Store",
+    "opening_hours": "9:30-16:30",
+    "operator": "下町風俗資料館",
+    "tourism": "museum",
+    "website": "https://www.taitogeibun.net/shitamachi/shitamachi_annex/",
+    "wikidata": "Q59268117",
+    "wikimedia_commons": "Category:Old Yoshida Sake Store"
+  }
+},
+{
+  "type": "relation",
+  "id": 2737745,
+  "center": {
+    "lat": 35.7189135,
+    "lon": 139.7764941
+  },
+  "tags": {
+    "building": "public",
+    "check_date": "2026-04-10",
+    "check_date:opening_hours": "2026-04-10",
+    "name": "本館",
+    "name:de": "Honkan",
+    "name:en": "Honkan (Japanese Gallery)",
+    "name:es": "Honkan (Galería Japonesa",
+    "name:et": "Honkan",
+    "name:fr": "Bâtiment principal",
+    "name:ja-Hira": "ほんかん",
+    "name:ja-Latn": "Hon-kan",
+    "name:ko": "본관",
+    "note": "National-Land Numerical Information (Public Facility) 2006, MLIT Japan",
+    "note:ja": "国土数値情報（公共施設データ）平成19年　国土交通省",
+    "opening_hours": "Mo-Su 09:30-17:00",
+    "source": "KSJ2",
+    "source_ref": "http://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-P02-v2_0.html",
+    "toilets:wheelchair": "yes",
+    "tourism": "museum",
+    "type": "multipolygon",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "relation",
+  "id": 5413419,
+  "center": {
+    "lat": 35.7153093,
+    "lon": 139.7732671
+  },
+  "tags": {
+    "addr:block_number": "9",
+    "addr:city": "台東区",
+    "addr:housenumber": "83",
+    "addr:neighbourhood": "上野公園",
+    "addr:postcode": "110-0007",
+    "addr:province": "東京都",
+    "contact:email": "S8000426@section.metro.tokyo.jp",
+    "contact:mobile": "+81 03-3827-7752",
+    "contact:phone": "+81 03-3828-5644",
+    "contact:tripadvisor": "320441",
+    "contact:website": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/index_top.html",
+    "fee": "no",
+    "leisure": "park",
+    "loc_name": "上野の森",
+    "loc_name:fr": "Forêt de Ueno",
+    "loc_name:ja": "上野の森",
+    "loc_name:ja-Hira": "うえの の もり",
+    "loc_name:ja-Latn": "Ueno-no-mori",
+    "name": "上野公園",
+    "name:de": "Ueno Kaisergeschenkpark",
+    "name:en": "Ueno Zoological Gardens",
+    "name:es": "Gran Parque Imperial Ueno",
+    "name:fa": "پارک اوئنو",
+    "name:fr": "Parc de Ueno",
+    "name:he": "פארק אואנו",
+    "name:id": "Taman Ueno",
+    "name:it": "Parco di Ueno",
+    "name:ja": "上野公園",
+    "name:ja-Hira": "うえのこうえん",
+    "name:ja-Latn": "Ueno-kōen",
+    "name:ko": "우에노공원",
+    "name:pt": "Parque Ueno",
+    "name:th": "สวนอูเอโนะ",
+    "name:tr": "Ueno Parkı",
+    "name:uk": "Парк Уено",
+    "name:vi": "Công viên Ueno",
+    "name:zh": "上野恩赐公园",
+    "official_name": "上野恩賜公園",
+    "official_name:fr": "Parc Ueno-Onshi",
+    "official_name:ja": "上野恩賜公園",
+    "official_name:ja-Hira": "うえのおんしこうえん",
+    "official_name:ja-Latn": "Ueno-Onshi-kōen",
+    "opening_hours": "09:30-17:00",
+    "operator": "上野恩賜公園管理所",
+    "operator:wikidata": "Q27477386",
+    "start_date": "1873-10-19",
+    "type": "multipolygon",
+    "wheelchair": "yes",
+    "wikidata": "Q746216",
+    "wikimedia_commons": "Category:Ueno Park",
+    "wikipedia": "ja:上野恩賜公園"
+  }
+}
+
+  ]
+}

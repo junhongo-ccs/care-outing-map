@@ -1,0 +1,39 @@
+{
+  "tokyo_accessible_toilets": {
+    "feature_count": 8944,
+    "source_counts": {
+      "public_facility": 8161,
+      "railway_station": 783
+    }
+  },
+  "ueno_toilets_1500m": {
+    "feature_count": 144,
+    "source_counts": {
+      "railway_station": 28,
+      "public_facility": 116
+    },
+    "center": {
+      "name": "Ueno Station",
+      "lat": 35.713768,
+      "lng": 139.777254
+    },
+    "radius_m": 1500
+  },
+  "ueno_toilets_1000m": {
+    "feature_count": 93,
+    "source_counts": {
+      "railway_station": 19,
+      "public_facility": 74
+    },
+    "center": {
+      "name": "Ueno Station",
+      "lat": 35.713768,
+      "lng": 139.777254
+    },
+    "radius_m": 1000
+  },
+  "osm_ueno_pois": {
+    "feature_count": 90,
+    "source": "OpenStreetMap via Overpass API"
+  }
+}
