@@ -30,7 +30,7 @@ Implemented:
   - Older adult companion
 - Candidate toilet ranking by a rule-based outing confidence score
 - Result list with selected-card highlighting
-- Google 3D Maps markers for toilets and Ueno outing POIs
+- Google 3D Maps markers for toilet candidates
 - Static fallback map preview when Google Maps is unavailable
 - Detail modal with equipment reasons, score band, and public photo URLs
 - Photo carousel for entrance and inside toilet photos when both are available
@@ -128,7 +128,7 @@ Current processed data:
 - Tokyo-wide accessible toilets: 8,944
 - Ueno 1km accessible toilets: 93
 - Ueno 1.5km accessible toilets: 144
-- Ueno OSM POIs: 90
+- Ueno OSM POIs: 90, retained in processed data but not currently rendered in the app
 
 The data preparation step also assigns one unique `properties.id` per source CSV row so the result list and selected marker state do not collide across records.
 

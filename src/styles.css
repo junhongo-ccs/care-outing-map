@@ -176,7 +176,7 @@ h1 {
   position: absolute;
   left: 20px;
   top: 78px;
-  width: clamp(420px, 24vw, 480px);
+  width: clamp(320px, 18vw, 380px);
   z-index: 6;
 }
 
@@ -548,22 +548,6 @@ h1 {
   line-height: 1;
   position: absolute;
   top: 118px;
-}
-
-.poi-dot {
-  background: rgba(29, 29, 31, 0.78);
-  border: 2px solid #ffffff;
-  border-radius: 999px;
-  color: #ffffff;
-  font-size: 11px;
-  max-width: 150px;
-  overflow: hidden;
-  padding: 5px 8px;
-  position: absolute;
-  text-overflow: ellipsis;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  z-index: 2;
 }
 
 .toilet-dot {

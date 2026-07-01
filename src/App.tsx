@@ -18,7 +18,7 @@ import {
   scoreForMode,
 } from "./data";
 import { loadGoogleMaps } from "./googleMapsLoader";
-import type { CareMode, FeatureCollection, PoiFeature, ToiletFeature } from "./types";
+import type { CareMode, FeatureCollection, ToiletFeature } from "./types";
 
 const mapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
 const AREA_CAMERA_RANGE = 1800;
@@ -56,12 +56,15 @@ function offsetCenterForVisualFocus(
   };
 }
 
+function truncateText(value: string, maxLength: number) {
+  return value.length > maxLength ? `${value.slice(0, maxLength)}...` : value;
+}
+
 export function App() {
   const [mode, setMode] = useState<CareMode>("wheelchair");
   const [areaId, setAreaId] = useState("ueno");
   const [query, setQuery] = useState("上野");
   const [toilets, setToilets] = useState<ToiletFeature[]>([]);
-  const [pois, setPois] = useState<PoiFeature[]>([]);
   const [selected, setSelected] = useState<ToiletFeature | null>(null);
   const [modalToilet, setModalToilet] = useState<ToiletFeature | null>(null);
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -72,14 +75,9 @@ export function App() {
   useEffect(() => {
     async function loadData() {
       try {
-        const [toiletsResponse, poisResponse] = await Promise.all([
-          fetch("/data/processed/tokyo_accessible_toilets.geojson"),
-          fetch("/data/processed/osm_ueno_pois.geojson"),
-        ]);
+        const toiletsResponse = await fetch("/data/processed/tokyo_accessible_toilets.geojson");
         const toiletGeo = (await toiletsResponse.json()) as FeatureCollection<ToiletFeature>;
-        const poiGeo = (await poisResponse.json()) as FeatureCollection<PoiFeature>;
         setToilets(toiletGeo.features);
-        setPois(poiGeo.features);
       } catch (error) {
         setLoadError(error instanceof Error ? error.message : "Failed to load data");
       }
@@ -113,13 +111,6 @@ export function App() {
       .sort((a, b) => Number(b.matches) - Number(a.matches) || b.modeScore - a.modeScore)
       .slice(0, 16);
   }, [mode, nearbyToilets]);
-
-  const destinations = useMemo(() => {
-    if (areaId !== "ueno") return [];
-    return pois
-      .filter((poi) => poi.properties.tourism === "museum" || poi.properties.tourism === "gallery")
-      .slice(0, 6);
-  }, [areaId, pois]);
 
   useEffect(() => {
     setSelected(null);
@@ -171,7 +162,6 @@ export function App() {
       <section className="map-stage" aria-label={`${activeArea.label}周辺の地図`}>
         <MapView
           toilets={rankedToilets.map((item) => item.feature)}
-          pois={destinations}
           selected={selected}
           mode={mode}
           center={activeArea.center}
@@ -231,10 +221,11 @@ export function App() {
                 className={`result-card ${selected?.properties.id === feature.properties.id ? "is-selected" : ""}`}
                 key={feature.properties.id}
                 onClick={() => handleToiletSelect(feature)}
+                title={feature.properties.name || feature.properties.toilet_name}
                 type="button"
               >
                 <div className="result-main">
-                  <strong>{feature.properties.name || feature.properties.toilet_name}</strong>
+                  <strong>{truncateText(feature.properties.name || feature.properties.toilet_name, 15)}</strong>
                   <span>{feature.properties.toilet_name || feature.properties.floor}</span>
                 </div>
                 <div className="result-meta">
@@ -367,7 +358,6 @@ function normalizePhotoUrl(src: string) {
 
 function MapView({
   toilets,
-  pois,
   selected,
   mode,
   center,
@@ -376,7 +366,6 @@ function MapView({
   onOpen,
 }: {
   toilets: ToiletFeature[];
-  pois: PoiFeature[];
   selected: ToiletFeature | null;
   mode: CareMode;
   center: { lat: number; lng: number };
@@ -517,26 +506,6 @@ function MapView({
         google.maps.importLibrary("marker"),
       ])) as [google.maps.Maps3DLibrary, google.maps.MarkerLibrary];
 
-      pois.forEach((poi) => {
-        const [lng, lat] = poi.geometry.coordinates;
-        const marker = new Marker3DElement({
-          position: { lat, lng, altitude: 20 },
-          altitudeMode: "RELATIVE_TO_GROUND",
-          extruded: true,
-          label: poi.properties.name,
-        });
-        const pin = new PinElement({
-            background: "#1d1d1f",
-            borderColor: "#ffffff",
-            glyphColor: "#ffffff",
-            glyphText: "",
-            scale: 0.85,
-          });
-        marker.append(pin.element ?? pin);
-        mapRef.current!.append(marker);
-        markersRef.current.push(marker);
-      });
-
       toilets.forEach((toilet) => {
         const [lng, lat] = toilet.geometry.coordinates;
         const isSelected = selected?.properties.id === toilet.properties.id;
@@ -565,13 +534,12 @@ function MapView({
     void drawMarkers().catch((error) => {
       setMapError(error instanceof Error ? error.message : "3D markers failed to load");
     });
-  }, [mode, onOpen, onSelect, pois, selected, toilets]);
+  }, [mode, onOpen, onSelect, selected, toilets]);
 
   if (!mapsApiKey || useMapFallback) {
     return (
       <StaticMapPreview
         toilets={toilets}
-        pois={pois}
         selected={selected}
         mode={mode}
         center={center}
@@ -594,7 +562,6 @@ function MapView({
 
 function StaticMapPreview({
   toilets,
-  pois,
   selected,
   mode,
   center,
@@ -604,7 +571,6 @@ function StaticMapPreview({
   warning,
 }: {
   toilets: ToiletFeature[];
-  pois: PoiFeature[];
   selected: ToiletFeature | null;
   mode: CareMode;
   center: { lat: number; lng: number };
@@ -647,11 +613,6 @@ function StaticMapPreview({
       <div className="static-map" ref={staticMapRef}>
       <div className="grid-lines" />
       <div className="ueno-label">{areaLabel}</div>
-      {pois.map((poi) => (
-        <span className="poi-dot" key={`${poi.properties.osm_type}-${poi.properties.osm_id}`} style={toPosition(poi.geometry.coordinates)}>
-          {poi.properties.name}
-        </span>
-      ))}
       {toilets.map((toilet) => {
         const score = scoreForMode(toilet, mode);
         const selectedClass = selected?.properties.id === toilet.properties.id ? " is-selected" : "";
