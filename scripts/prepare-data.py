@@ -48,7 +48,7 @@ def read_toilet_features():
 
     for source, filename in sources:
         with (RAW_TOILETS / filename).open(encoding="cp932", newline="") as handle:
-            for row in csv.DictReader(handle):
+            for row_index, row in enumerate(csv.DictReader(handle), start=1):
                 try:
                     lon = float(row.get("経度") or "nan")
                     lat = float(row.get("緯度") or "nan")
@@ -59,7 +59,7 @@ def read_toilet_features():
                     continue
 
                 props = {
-                    "id": f"{source}:{row.get('管理者種別番号', '')}:{row.get('施設通し番号') or row.get('鉄道駅通し番号', '')}:{row.get('施設内トイレ通し番号') or row.get('鉄道駅内トイレ通し番号', '')}",
+                    "id": f"{source}:{row_index}",
                     "source": source,
                     "name": row.get("施設名") or row.get("鉄道駅名") or "",
                     "toilet_name": row.get("トイレ名") or "",
@@ -196,4 +196,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

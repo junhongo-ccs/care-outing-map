@@ -1,4 +1,5 @@
 import {
+  ChevronLeft,
   ChevronRight,
   MapPinned,
   Search,
@@ -20,6 +21,40 @@ import { loadGoogleMaps } from "./googleMapsLoader";
 import type { CareMode, FeatureCollection, PoiFeature, ToiletFeature } from "./types";
 
 const mapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
+const AREA_CAMERA_RANGE = 1800;
+const AREA_CAMERA_TILT = 48;
+const AREA_CAMERA_HEADING = 24;
+const SELECTED_CAMERA_RANGE = 420;
+const MAP_VERTICAL_FOV_DEGREES = 35;
+
+function visualMapFocusOffsetPx(mapElement: HTMLElement | null) {
+  if (!mapElement) return 0;
+  const mapRect = mapElement.getBoundingClientRect();
+  const panelRect = document.querySelector<HTMLElement>(".side-panel")?.getBoundingClientRect();
+  if (!panelRect) return 0;
+  const coveredLeftWidth = Math.max(0, Math.min(panelRect.right, mapRect.right) - mapRect.left);
+  return coveredLeftWidth / 2;
+}
+
+function offsetCenterForVisualFocus(
+  point: { lat: number; lng: number },
+  offsetPx: number,
+  mapSizePx: { width: number; height: number },
+  rangeMeters: number,
+) {
+  if (offsetPx <= 0 || mapSizePx.width <= 0 || mapSizePx.height <= 0) return point;
+  const aspect = mapSizePx.width / mapSizePx.height;
+  const verticalFovRadians = (MAP_VERTICAL_FOV_DEGREES * Math.PI) / 180;
+  const horizontalFovRadians = 2 * Math.atan(Math.tan(verticalFovRadians / 2) * aspect);
+  const visibleWidthMeters = 2 * rangeMeters * Math.tan(horizontalFovRadians / 2);
+  const offsetMeters = (offsetPx / mapSizePx.width) * visibleWidthMeters;
+  const metersPerDegreeLng = 111320 * Math.cos((point.lat * Math.PI) / 180);
+  if (metersPerDegreeLng <= 0) return point;
+  return {
+    lat: point.lat,
+    lng: point.lng - offsetMeters / metersPerDegreeLng,
+  };
+}
 
 export function App() {
   const [mode, setMode] = useState<CareMode>("wheelchair");
@@ -142,10 +177,7 @@ export function App() {
           center={activeArea.center}
           areaLabel={activeArea.label}
           onSelect={handleToiletSelect}
-          onOpen={(feature) => {
-            setSelected(feature);
-            setModalToilet(feature);
-          }}
+          onOpen={setModalToilet}
         />
       </section>
 
@@ -257,28 +289,74 @@ function ToiletModal({ selected, mode, onClose }: { selected: ToiletFeature | nu
             <span key={reason}>{reason}</span>
           ))}
         </div>
-        <ToiletPhoto src={selected.properties.photo_entrance} alt={`${selected.properties.name}のトイレ入口`} />
+        <ToiletPhotos
+          name={selected.properties.name}
+          photos={[
+            { src: selected.properties.photo_entrance, label: "入口" },
+            { src: selected.properties.photo_inside, label: "内部" },
+          ]}
+        />
       </section>
     </div>
   );
 }
 
-function ToiletPhoto({ src, alt }: { src: string; alt: string }) {
-  const [failed, setFailed] = useState(false);
+function ToiletPhotos({ name, photos }: { name: string; photos: Array<{ src: string; label: string }> }) {
+  const availablePhotos = photos.filter((photo) => photo.src);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [failedUrls, setFailedUrls] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
-    setFailed(false);
-  }, [src]);
+    setActiveIndex(0);
+    setFailedUrls({});
+  }, [name, photos[0]?.src, photos[1]?.src]);
 
-  if (!src) {
+  if (availablePhotos.length === 0) {
     return <div className="photo-fallback">写真データなし</div>;
   }
 
-  if (failed) {
+  const activePhoto = availablePhotos[Math.min(activeIndex, availablePhotos.length - 1)];
+
+  if (failedUrls[activePhoto.src]) {
     return <div className="photo-fallback">写真URLはありますが、公開先から取得できません</div>;
   }
 
-  return <img className="toilet-photo" src={normalizePhotoUrl(src)} alt={alt} onError={() => setFailed(true)} />;
+  return (
+    <div className="photo-carousel">
+      <img
+        className="toilet-photo"
+        src={normalizePhotoUrl(activePhoto.src)}
+        alt={`${name}のトイレ${activePhoto.label}`}
+        onError={() => setFailedUrls((current) => ({ ...current, [activePhoto.src]: true }))}
+      />
+      <span className="photo-label">{activePhoto.label}</span>
+      {availablePhotos.length > 1 ? (
+        <>
+          <button
+            className="photo-nav is-prev"
+            onClick={() => setActiveIndex((current) => (current === 0 ? availablePhotos.length - 1 : current - 1))}
+            type="button"
+            aria-label="前の写真"
+          >
+            <ChevronLeft size={18} />
+          </button>
+          <button
+            className="photo-nav is-next"
+            onClick={() => setActiveIndex((current) => (current + 1) % availablePhotos.length)}
+            type="button"
+            aria-label="次の写真"
+          >
+            <ChevronRight size={18} />
+          </button>
+          <div className="photo-dots" aria-hidden="true">
+            {availablePhotos.map((photo, index) => (
+              <span className={index === activeIndex ? "is-active" : ""} key={`${photo.label}-${photo.src}`} />
+            ))}
+          </div>
+        </>
+      ) : null}
+    </div>
+  );
 }
 
 function normalizePhotoUrl(src: string) {
@@ -309,8 +387,21 @@ function MapView({
   const mapElement = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<HTMLElement | null>(null);
   const markersRef = useRef<HTMLElement[]>([]);
+  const selectedRef = useRef<ToiletFeature | null>(selected);
   const [mapError, setMapError] = useState<string | null>(null);
   const [useMapFallback, setUseMapFallback] = useState(false);
+
+  useEffect(() => {
+    selectedRef.current = selected;
+  }, [selected]);
+
+  function handleMapPinClick(feature: ToiletFeature) {
+    if (selectedRef.current?.properties.id === feature.properties.id) {
+      onOpen(feature);
+      return;
+    }
+    onSelect(feature);
+  }
 
   function flyToSelectedToilet(feature: ToiletFeature) {
     if (!mapRef.current) return;
@@ -331,9 +422,16 @@ function MapView({
       }) => void;
       stopCameraAnimation?: () => void;
     };
+    const mapRect = mapRef.current.getBoundingClientRect();
+    const visualCenter = offsetCenterForVisualFocus(
+      { lat, lng },
+      visualMapFocusOffsetPx(mapRef.current),
+      { width: mapRect.width, height: mapRect.height },
+      SELECTED_CAMERA_RANGE,
+    );
     const camera = {
-      center: { lat, lng, altitude: 80 },
-      range: 420,
+      center: { ...visualCenter, altitude: 80 },
+      range: SELECTED_CAMERA_RANGE,
       tilt: 48,
       heading: 0,
     };
@@ -367,9 +465,9 @@ function MapView({
         const { Map3DElement } = (await googleMaps.importLibrary("maps3d")) as google.maps.Maps3DLibrary;
         const map = new Map3DElement({
           center: { ...center, altitude: 500 },
-          range: 1800,
-          tilt: 67.5,
-          heading: 24,
+          range: AREA_CAMERA_RANGE,
+          tilt: AREA_CAMERA_TILT,
+          heading: AREA_CAMERA_HEADING,
           mode: "HYBRID",
           defaultUIHidden: false,
           gestureHandling: "GREEDY",
@@ -398,9 +496,9 @@ function MapView({
       heading?: number;
     };
     map.center = { ...center, altitude: 500 };
-    map.range = 1800;
-    map.tilt = 67.5;
-    map.heading = 24;
+    map.range = AREA_CAMERA_RANGE;
+    map.tilt = AREA_CAMERA_TILT;
+    map.heading = AREA_CAMERA_HEADING;
   }, [center]);
 
   useEffect(() => {
@@ -457,8 +555,8 @@ function MapView({
             scale: isSelected ? 1.25 : 1,
           });
         marker.append(pin.element ?? pin);
-        marker.addEventListener("click", () => onOpen(toilet));
-        marker.addEventListener("gmp-click", () => onOpen(toilet));
+        marker.addEventListener("click", () => handleMapPinClick(toilet));
+        marker.addEventListener("gmp-click", () => handleMapPinClick(toilet));
         mapRef.current!.append(marker);
         markersRef.current.push(marker);
       });
@@ -467,7 +565,7 @@ function MapView({
     void drawMarkers().catch((error) => {
       setMapError(error instanceof Error ? error.message : "3D markers failed to load");
     });
-  }, [mode, onOpen, pois, selected, toilets]);
+  }, [mode, onOpen, onSelect, pois, selected, toilets]);
 
   if (!mapsApiKey || useMapFallback) {
     return (
@@ -515,12 +613,21 @@ function StaticMapPreview({
   onOpen: (feature: ToiletFeature) => void;
   warning: string;
 }) {
-  const previewCenter = selected ? centerOf(selected) : center;
+  const staticMapRef = useRef<HTMLDivElement | null>(null);
+  const selectedCenter = selected ? centerOf(selected) : center;
+  const mapRect = staticMapRef.current?.getBoundingClientRect();
+  const offsetPx = visualMapFocusOffsetPx(staticMapRef.current);
+  const lngSpan = 0.024;
+  const latSpan = 0.02;
+  const previewCenter =
+    selected && mapRect && mapRect.width > 0
+      ? { lat: selectedCenter.lat, lng: selectedCenter.lng - (offsetPx / mapRect.width) * lngSpan }
+      : selectedCenter;
   const bounds = {
-    minLng: previewCenter.lng - 0.012,
-    maxLng: previewCenter.lng + 0.012,
-    minLat: previewCenter.lat - 0.01,
-    maxLat: previewCenter.lat + 0.01,
+    minLng: previewCenter.lng - lngSpan / 2,
+    maxLng: previewCenter.lng + lngSpan / 2,
+    minLat: previewCenter.lat - latSpan / 2,
+    maxLat: previewCenter.lat + latSpan / 2,
   };
   const toPosition = ([lng, lat]: [number, number]) => ({
     left: `${((lng - bounds.minLng) / (bounds.maxLng - bounds.minLng)) * 100}%`,
@@ -529,11 +636,15 @@ function StaticMapPreview({
   const openFromPin = (event: React.MouseEvent<HTMLButtonElement>, toilet: ToiletFeature) => {
     event.preventDefault();
     event.stopPropagation();
-    onOpen(toilet);
+    if (selected?.properties.id === toilet.properties.id) {
+      onOpen(toilet);
+      return;
+    }
+    onSelect(toilet);
   };
 
   return (
-      <div className="static-map">
+      <div className="static-map" ref={staticMapRef}>
       <div className="grid-lines" />
       <div className="ueno-label">{areaLabel}</div>
       {pois.map((poi) => (

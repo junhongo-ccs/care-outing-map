@@ -25,7 +25,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:14:27:1",
+        "id": "railway_station:655",
         "source": "railway_station",
         "name": "上野",
         "toilet_name": "多機能トイレ",
@@ -60,7 +60,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:14:27:3",
+        "id": "railway_station:657",
         "source": "railway_station",
         "name": "上野",
         "toilet_name": "多機能トイレ",
@@ -95,7 +95,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:14:27:2",
+        "id": "railway_station:656",
         "source": "railway_station",
         "name": "上野",
         "toilet_name": "多機能化粧室",
@@ -130,7 +130,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:14:27:4",
+        "id": "railway_station:658",
         "source": "railway_station",
         "name": "上野",
         "toilet_name": "多機能トイレ",
@@ -165,7 +165,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:5:1",
+        "id": "public_facility:209",
         "source": "public_facility",
         "name": "東京文化会館",
         "toilet_name": "エントランスロビー横右",
@@ -200,7 +200,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:5:2",
+        "id": "public_facility:210",
         "source": "public_facility",
         "name": "東京文化会館",
         "toilet_name": "エントランスロビー横左",
@@ -235,7 +235,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:1:2",
+        "id": "public_facility:2421",
         "source": "public_facility",
         "name": "東京都台東区役所本庁舎",
         "toilet_name": "１階西側だれでもトイレ",
@@ -270,7 +270,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:1:4",
+        "id": "public_facility:2423",
         "source": "public_facility",
         "name": "東京都台東区役所本庁舎",
         "toilet_name": "2階西側だれでもトイレ",
@@ -305,7 +305,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:1:5",
+        "id": "public_facility:2424",
         "source": "public_facility",
         "name": "東京都台東区役所本庁舎",
         "toilet_name": "３階西側だれでもトイレ",
@@ -340,7 +340,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:7:1",
+        "id": "railway_station:343",
         "source": "railway_station",
         "name": "上野",
         "toilet_name": "バリアフリートイレ",
@@ -375,7 +375,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:7:2",
+        "id": "railway_station:344",
         "source": "railway_station",
         "name": "上野",
         "toilet_name": "バリアフリートイレ",
@@ -410,7 +410,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:16:2",
+        "id": "public_facility:725",
         "source": "public_facility",
         "name": "上野恩賜公園",
         "toilet_name": "2号トイレ",
@@ -445,7 +445,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:16:8",
+        "id": "public_facility:731",
         "source": "public_facility",
         "name": "上野恩賜公園",
         "toilet_name": "10号トイレ",
@@ -480,7 +480,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:16:3",
+        "id": "public_facility:726",
         "source": "public_facility",
         "name": "上野恩賜公園",
         "toilet_name": "3号トイレ",
@@ -515,7 +515,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:1:1",
+        "id": "public_facility:2420",
         "source": "public_facility",
         "name": "東京都台東区役所本庁舎",
         "toilet_name": "１０階東側だれでもトイレ",
@@ -550,7 +550,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:1:3",
+        "id": "public_facility:2422",
         "source": "public_facility",
         "name": "東京都台東区役所本庁舎",
         "toilet_name": "１階東側だれでもトイレ",
@@ -585,7 +585,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:16:6",
+        "id": "public_facility:729",
         "source": "public_facility",
         "name": "上野恩賜公園",
         "toilet_name": "7号トイレ",
@@ -620,7 +620,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:16:7",
+        "id": "public_facility:730",
         "source": "public_facility",
         "name": "上野恩賜公園",
         "toilet_name": "8号トイレ",
@@ -655,7 +655,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:8:1",
+        "id": "public_facility:2431",
         "source": "public_facility",
         "name": "東上野地区センター（東上野区民館）",
         "toilet_name": "１階バリアフリートイレ",
@@ -690,7 +690,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:1:1",
+        "id": "public_facility:2445",
         "source": "public_facility",
         "name": "台東保健所",
         "toilet_name": "2階ピクトグラム表示のみ",
@@ -725,7 +725,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:1:2",
+        "id": "public_facility:2446",
         "source": "public_facility",
         "name": "台東保健所",
         "toilet_name": "4階ピクトグラム表示のみ",
@@ -760,7 +760,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:16:4",
+        "id": "public_facility:727",
         "source": "public_facility",
         "name": "上野恩賜公園",
         "toilet_name": "4号トイレ",
@@ -795,7 +795,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:3:1:1",
+        "id": "railway_station:117",
         "source": "railway_station",
         "name": "京成上野",
         "toilet_name": "バリアフリートイレ",
@@ -830,7 +830,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:3:1:2",
+        "id": "railway_station:118",
         "source": "railway_station",
         "name": "京成上野",
         "toilet_name": "バリアフリートイレ",
@@ -865,7 +865,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:1",
+        "id": "public_facility:2501",
         "source": "public_facility",
         "name": "西郷銅像下公衆トイレ",
         "toilet_name": "西郷銅像下公衆トイレ",
@@ -900,7 +900,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:3:1:3",
+        "id": "railway_station:119",
         "source": "railway_station",
         "name": "京成上野",
         "toilet_name": "バリアフリートイレ",
@@ -935,7 +935,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:16:5",
+        "id": "public_facility:728",
         "source": "public_facility",
         "name": "上野恩賜公園",
         "toilet_name": "5号トイレ",
@@ -970,7 +970,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:13",
+        "id": "public_facility:1112",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "弁天門横トイレ",
@@ -1005,7 +1005,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:14",
+        "id": "public_facility:1113",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "弁天門横トイレ女子内",
@@ -1040,7 +1040,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:15",
+        "id": "public_facility:1114",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "弁天門横トイレ男子内",
@@ -1075,7 +1075,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:1",
+        "id": "public_facility:1100",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "日本の動物舎トイレ1",
@@ -1110,7 +1110,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:2",
+        "id": "public_facility:1101",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "日本の動物舎トイレ2",
@@ -1145,7 +1145,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:11",
+        "id": "public_facility:201",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "Ｂ3ギャラリー横女",
@@ -1180,7 +1180,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:12",
+        "id": "public_facility:202",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "B3ギャラリー横男",
@@ -1215,7 +1215,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:1",
+        "id": "public_facility:191",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "１階企画展示室横女",
@@ -1250,7 +1250,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:2",
+        "id": "public_facility:192",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "１階企画展示室横男",
@@ -1285,7 +1285,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:7",
+        "id": "public_facility:197",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "２階企画展示室横女",
@@ -1320,7 +1320,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:8",
+        "id": "public_facility:198",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "２階企画展示室横男",
@@ -1355,7 +1355,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:13",
+        "id": "public_facility:203",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "ＬＢ階企画展示室横",
@@ -1390,7 +1390,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:16",
+        "id": "public_facility:206",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "講堂ロビーB1女",
@@ -1425,7 +1425,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:17",
+        "id": "public_facility:207",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "講堂ロビーB1男",
@@ -1460,7 +1460,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:4",
+        "id": "public_facility:194",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "１階第３公募展示室Ｂ横",
@@ -1495,7 +1495,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:10",
+        "id": "public_facility:200",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "２階第３公募展示室Ｂ横",
@@ -1530,7 +1530,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:3:2",
+        "id": "public_facility:2444",
         "source": "public_facility",
         "name": "社会教育センター",
         "toilet_name": "B1身体障害者用更衣室（トイレ付）",
@@ -1565,7 +1565,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:15",
+        "id": "public_facility:205",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "ＬＢ階第２公募室Ｂ横",
@@ -1600,7 +1600,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:6",
+        "id": "public_facility:196",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "２階レストラン横",
@@ -1635,7 +1635,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:120:2",
+        "id": "railway_station:530",
         "source": "railway_station",
         "name": "稲荷町",
         "toilet_name": "多機能トイレ",
@@ -1670,7 +1670,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:14",
+        "id": "public_facility:204",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "ＬＢ階第１公募室Ｂ横",
@@ -1705,7 +1705,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:18",
+        "id": "public_facility:208",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "授乳室内",
@@ -1740,7 +1740,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:3:1",
+        "id": "public_facility:2443",
         "source": "public_facility",
         "name": "社会教育センター",
         "toilet_name": "1階身体障害者用トイレ",
@@ -1775,7 +1775,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:120:1",
+        "id": "railway_station:529",
         "source": "railway_station",
         "name": "稲荷町",
         "toilet_name": "多機能トイレ",
@@ -1810,7 +1810,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:3",
+        "id": "public_facility:193",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "１階第１公募展示室Ｂ横",
@@ -1845,7 +1845,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:9",
+        "id": "public_facility:199",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "２階第１公募展示室Ｂ横",
@@ -1880,7 +1880,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:7",
+        "id": "public_facility:1106",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "子ども動物園エントランス棟トイレ",
@@ -1915,7 +1915,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:5",
+        "id": "public_facility:195",
         "source": "public_facility",
         "name": "東京都美術館",
         "toilet_name": "カフェ横",
@@ -1950,7 +1950,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:4:1",
+        "id": "public_facility:2476",
         "source": "public_facility",
         "name": "台東区立　西町公園",
         "toilet_name": "西町公園トイレ",
@@ -1985,7 +1985,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:1:1",
+        "id": "public_facility:2452",
         "source": "public_facility",
         "name": "台東区立下町風俗資料館",
         "toilet_name": "1階多目的トイレ",
@@ -2020,7 +2020,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:6",
+        "id": "public_facility:1105",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "旧正門前トイレ",
@@ -2055,7 +2055,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:11",
+        "id": "public_facility:1110",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "東園象舎前トイレ",
@@ -2090,7 +2090,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:1",
+        "id": "public_facility:2453",
         "source": "public_facility",
         "name": "台東区立旧東京音楽学校奏楽堂",
         "toilet_name": "1階東側女子トイレ",
@@ -2125,7 +2125,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:2",
+        "id": "public_facility:2454",
         "source": "public_facility",
         "name": "台東区立旧東京音楽学校奏楽堂",
         "toilet_name": "1階東側男子トイレ",
@@ -2160,7 +2160,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:4:1",
+        "id": "public_facility:2508",
         "source": "public_facility",
         "name": "東京都台東区立老人福祉センター",
         "toilet_name": "４階だれでもトイレ",
@@ -2195,7 +2195,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:4:2",
+        "id": "public_facility:2509",
         "source": "public_facility",
         "name": "東京都台東区立老人福祉センター",
         "toilet_name": "５階だれでもトイレ",
@@ -2230,7 +2230,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:16:1",
+        "id": "public_facility:724",
         "source": "public_facility",
         "name": "上野恩賜公園",
         "toilet_name": "11号トイレ",
@@ -2265,7 +2265,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:12",
+        "id": "public_facility:1111",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "東園中央広場トイレ",
@@ -2300,7 +2300,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:17",
+        "id": "public_facility:1116",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "カフェカメレオン売店前",
@@ -2335,7 +2335,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:5",
+        "id": "public_facility:1104",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "東園見晴台トイレ",
@@ -2370,7 +2370,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:18",
+        "id": "public_facility:1117",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "東園無料休憩所",
@@ -2405,7 +2405,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:19",
+        "id": "public_facility:1118",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "東園無料休憩所",
@@ -2440,7 +2440,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:16",
+        "id": "public_facility:1115",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "パンダのふるさとゾーン内トイレ",
@@ -2475,7 +2475,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:81:1",
+        "id": "railway_station:470",
         "source": "railway_station",
         "name": "仲御徒町",
         "toilet_name": "バリアフリートイレ",
@@ -2510,7 +2510,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:14:26:1",
+        "id": "railway_station:653",
         "source": "railway_station",
         "name": "御徒町",
         "toilet_name": "多機能トイレ",
@@ -2545,7 +2545,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:72:1",
+        "id": "public_facility:1405",
         "source": "public_facility",
         "name": "都営大江戸線上野御徒町駅",
         "toilet_name": "だれでもトイレ",
@@ -2580,7 +2580,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:8",
+        "id": "public_facility:1107",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "西園休憩所脇トイレ",
@@ -2615,7 +2615,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:14:28:1",
+        "id": "railway_station:659",
         "source": "railway_station",
         "name": "鶯谷",
         "toilet_name": "多機能化粧室",
@@ -2650,7 +2650,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:9",
+        "id": "public_facility:1108",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "西園両生爬虫類館トイレ",
@@ -2685,7 +2685,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:114:1",
+        "id": "railway_station:519",
         "source": "railway_station",
         "name": "上野広小路",
         "toilet_name": "多機能トイレ",
@@ -2720,7 +2720,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:10",
+        "id": "public_facility:1109",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "池之端門前トイレ",
@@ -2755,7 +2755,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:3",
+        "id": "public_facility:1102",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "ゴリラ舎横女子トイレ",
@@ -2790,7 +2790,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:84:4",
+        "id": "public_facility:1103",
         "source": "public_facility",
         "name": "恩賜上野動物園",
         "toilet_name": "ゴリラ舎横男子トイレ",
@@ -2825,7 +2825,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:81:2",
+        "id": "railway_station:471",
         "source": "railway_station",
         "name": "仲御徒町",
         "toilet_name": "バリアフリートイレ",
@@ -2860,7 +2860,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:14:26:2",
+        "id": "railway_station:654",
         "source": "railway_station",
         "name": "御徒町",
         "toilet_name": "多機能トイレ",
@@ -2895,7 +2895,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:14:1",
+        "id": "public_facility:2486",
         "source": "public_facility",
         "name": "台東区立　入谷南公園",
         "toilet_name": "入谷南公園トイレ",
@@ -2930,7 +2930,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:8:1",
+        "id": "public_facility:2480",
         "source": "public_facility",
         "name": "台東区立　御徒町公園",
         "toilet_name": "御徒町公園トイレ",
@@ -2965,7 +2965,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:73:1",
+        "id": "public_facility:1406",
         "source": "public_facility",
         "name": "都営大江戸線新御徒町駅",
         "toilet_name": "だれでもトイレ",
@@ -3000,7 +3000,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:10:1",
+        "id": "public_facility:2436",
         "source": "public_facility",
         "name": "上野地区センター（上野区民館）",
         "toilet_name": "バリアフリートイレ",
@@ -3035,7 +3035,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:98:1",
+        "id": "railway_station:497",
         "source": "railway_station",
         "name": "湯島",
         "toilet_name": "バリアフリートイレ",
@@ -3070,7 +3070,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:5:2:1",
+        "id": "railway_station:162",
         "source": "railway_station",
         "name": "新御徒町",
         "toilet_name": "多機能トイレ",
@@ -3105,7 +3105,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:21:1",
+        "id": "public_facility:2496",
         "source": "public_facility",
         "name": "台東区立　黒門児童遊園",
         "toilet_name": "黒門児童遊園トイレ",
@@ -3140,7 +3140,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:7:1",
+        "id": "public_facility:2479",
         "source": "public_facility",
         "name": "台東区立　松葉公園",
         "toilet_name": "松葉公園トイレ",
@@ -3175,7 +3175,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:76:2",
+        "id": "public_facility:1072",
         "source": "public_facility",
         "name": "旧岩崎邸庭園",
         "toilet_name": "管理棟1F便所",
@@ -3210,7 +3210,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:76:3",
+        "id": "public_facility:1073",
         "source": "public_facility",
         "name": "旧岩崎邸庭園",
         "toilet_name": "管理棟3F便所",
@@ -3245,7 +3245,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:13:1",
+        "id": "public_facility:2485",
         "source": "public_facility",
         "name": "台東区立　竹町公園",
         "toilet_name": "竹町公園トイレ",
@@ -3280,7 +3280,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:1:1",
+        "id": "public_facility:2500",
         "source": "public_facility",
         "name": "寛永寺前公衆トイレ",
         "toilet_name": "寛永寺前公衆トイレ",
@@ -3315,7 +3315,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:101:2",
+        "id": "railway_station:501",
         "source": "railway_station",
         "name": "入谷",
         "toilet_name": "バリアフリートイレ",
@@ -3350,7 +3350,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:76:1",
+        "id": "public_facility:1071",
         "source": "public_facility",
         "name": "旧岩崎邸庭園",
         "toilet_name": "入口横トイレ",
@@ -3385,7 +3385,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:16:1",
+        "id": "public_facility:2488",
         "source": "public_facility",
         "name": "台東区立　谷中清水町公園",
         "toilet_name": "谷中清水町公園トイレ",
@@ -3420,7 +3420,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:107:1",
+        "id": "railway_station:509",
         "source": "railway_station",
         "name": "根津",
         "toilet_name": "バリアフリートイレ",
@@ -3455,7 +3455,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:12:1",
+        "id": "public_facility:2438",
         "source": "public_facility",
         "name": "入谷地区センター(入谷区民館)",
         "toilet_name": "バリアフリートイレ",
@@ -3490,7 +3490,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:12:2",
+        "id": "public_facility:2439",
         "source": "public_facility",
         "name": "入谷地区センター(入谷区民館)",
         "toilet_name": "車いす対応トイレ",
@@ -3525,7 +3525,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:19:1",
+        "id": "public_facility:2404",
         "source": "public_facility",
         "name": "湯島天神境内公衆便所",
         "toilet_name": "湯島天神境内公衆便所",
@@ -3560,7 +3560,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:101:1",
+        "id": "railway_station:500",
         "source": "railway_station",
         "name": "入谷",
         "toilet_name": "バリアフリートイレ",
@@ -3595,7 +3595,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:10:1",
+        "id": "public_facility:2482",
         "source": "public_facility",
         "name": "台東区立　小島公園",
         "toilet_name": "小島公園トイレ",
@@ -3630,7 +3630,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:2",
+        "id": "public_facility:2465",
         "source": "public_facility",
         "name": "台東区　生涯学習センター",
         "toilet_name": "1階　だれでもトイレ2",
@@ -3665,7 +3665,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:9",
+        "id": "public_facility:2472",
         "source": "public_facility",
         "name": "台東区　生涯学習センター",
         "toilet_name": "地下1階　だれでもトイレ",
@@ -3700,7 +3700,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:5:1",
+        "id": "public_facility:2324",
         "source": "public_facility",
         "name": "文京区教育センター（青少年プラザ）",
         "toilet_name": "バリアフリートイレ",
@@ -3735,7 +3735,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:5:2",
+        "id": "public_facility:2325",
         "source": "public_facility",
         "name": "文京区教育センター（青少年プラザ）",
         "toilet_name": "バリアフリートイレ",
@@ -3770,7 +3770,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:8",
+        "id": "public_facility:2471",
         "source": "public_facility",
         "name": "台東区　生涯学習センター",
         "toilet_name": "6階　だれでもトイレ",
@@ -3805,7 +3805,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:4",
+        "id": "public_facility:2467",
         "source": "public_facility",
         "name": "台東区　生涯学習センター",
         "toilet_name": "2階　だれでもトイレ2",
@@ -3840,7 +3840,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:7",
+        "id": "public_facility:2470",
         "source": "public_facility",
         "name": "台東区　生涯学習センター",
         "toilet_name": "5階　だれでもトイレ",
@@ -3875,7 +3875,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:6",
+        "id": "public_facility:2469",
         "source": "public_facility",
         "name": "台東区　生涯学習センター",
         "toilet_name": "4階　だれでもトイレ",
@@ -3910,7 +3910,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:11:1",
+        "id": "public_facility:2483",
         "source": "public_facility",
         "name": "台東区立　金竜公園",
         "toilet_name": "金竜公園トイレ",
@@ -3945,7 +3945,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:3",
+        "id": "public_facility:2466",
         "source": "public_facility",
         "name": "台東区　生涯学習センター",
         "toilet_name": "2階　だれでもトイレ1",
@@ -3980,7 +3980,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:107:2",
+        "id": "railway_station:510",
         "source": "railway_station",
         "name": "根津",
         "toilet_name": "バリアフリートイレ",
@@ -4015,7 +4015,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:5",
+        "id": "public_facility:2468",
         "source": "public_facility",
         "name": "台東区　生涯学習センター",
         "toilet_name": "3階　だれでもトイレ",
@@ -4050,7 +4050,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:3:1",
+        "id": "public_facility:2455",
         "source": "public_facility",
         "name": "台東区立書道博物館",
         "toilet_name": "１階だれでもトイレ",
@@ -4085,7 +4085,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:4:1",
+        "id": "public_facility:2359",
         "source": "public_facility",
         "name": "根津二丁目児童遊園",
         "toilet_name": "根津二丁目児童遊園便所",
@@ -4120,7 +4120,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:11:1",
+        "id": "public_facility:2367",
         "source": "public_facility",
         "name": "新花公園",
         "toilet_name": "新花公園便所",
@@ -4155,7 +4155,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:1",
+        "id": "public_facility:2464",
         "source": "public_facility",
         "name": "台東区　生涯学習センター",
         "toilet_name": "1階　だれでもトイレ1",
@@ -4190,7 +4190,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:1:1",
+        "id": "public_facility:2352",
         "source": "public_facility",
         "name": "アカデミー湯島",
         "toilet_name": "5階バリアフリートイレ",
@@ -4225,7 +4225,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:15:1",
+        "id": "public_facility:2487",
         "source": "public_facility",
         "name": "台東区立　大正公園",
         "toilet_name": "大正公園トイレ",
@@ -4260,7 +4260,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:102:1",
+        "id": "railway_station:502",
         "source": "railway_station",
         "name": "田原町",
         "toilet_name": "バリアフリートイレ",
@@ -4295,7 +4295,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:102:2",
+        "id": "railway_station:503",
         "source": "railway_station",
         "name": "田原町",
         "toilet_name": "バリアフリートイレ",
@@ -4330,7 +4330,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:10:113:1",
+        "id": "railway_station:518",
         "source": "railway_station",
         "name": "末広町",
         "toilet_name": "多機能トイレ",
@@ -4365,7 +4365,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:4:1",
+        "id": "public_facility:2427",
         "source": "public_facility",
         "name": "南部区民事務所（寿区民館）",
         "toilet_name": "１階南側バリアフリートイレ",
@@ -4400,7 +4400,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:1",
+        "id": "public_facility:2506",
         "source": "public_facility",
         "name": "台東区立寿子ども家庭支援センター",
         "toilet_name": "だれでもトイレ",
@@ -4435,7 +4435,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:78:1",
+        "id": "public_facility:1075",
         "source": "public_facility",
         "name": "谷中霊園",
         "toilet_name": "管理所横トイレ",
@@ -4470,7 +4470,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:15:1",
+        "id": "public_facility:2335",
         "source": "public_facility",
         "name": "不忍通りふれあい館（根津地域活動センター）",
         "toilet_name": "車いす対応トイレ",
@@ -4505,7 +4505,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:2:1",
+        "id": "public_facility:2425",
         "source": "public_facility",
         "name": "西部区民事務所（金杉区民館）",
         "toilet_name": "１階バリアフリートイレ",
@@ -4540,7 +4540,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:9:4",
+        "id": "public_facility:2435",
         "source": "public_facility",
         "name": "台東地区センター（台東一丁目区民館、台東こども家庭支援センター、たいとう地域包括支援センター）",
         "toilet_name": "B1西バリアフリートイレ",
@@ -4575,7 +4575,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:9:1",
+        "id": "public_facility:2432",
         "source": "public_facility",
         "name": "台東地区センター（台東一丁目区民館、台東こども家庭支援センター、たいとう地域包括支援センター）",
         "toilet_name": "1F西バリアフリートイレ",
@@ -4610,7 +4610,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:9:2",
+        "id": "public_facility:2433",
         "source": "public_facility",
         "name": "台東地区センター（台東一丁目区民館、台東こども家庭支援センター、たいとう地域包括支援センター）",
         "toilet_name": "2F東バリアフリートイレ",
@@ -4645,7 +4645,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:9:3",
+        "id": "public_facility:2434",
         "source": "public_facility",
         "name": "台東地区センター（台東一丁目区民館、台東こども家庭支援センター、たいとう地域包括支援センター）",
         "toilet_name": "B1F東(ホ)バリアフリートイレ",
@@ -4680,7 +4680,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:5:3:1",
+        "id": "railway_station:163",
         "source": "railway_station",
         "name": "浅草",
         "toilet_name": "多機能トイレ",
@@ -4715,7 +4715,7 @@
         ]
       },
       "properties": {
-        "id": "railway_station:5:3:2",
+        "id": "railway_station:164",
         "source": "railway_station",
         "name": "浅草",
         "toilet_name": "多機能トイレ",
@@ -4750,7 +4750,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:78:2",
+        "id": "public_facility:1076",
         "source": "public_facility",
         "name": "谷中霊園",
         "toilet_name": "派出所横トイレ",
@@ -4785,7 +4785,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:9:1",
+        "id": "public_facility:2481",
         "source": "public_facility",
         "name": "台東区立　金杉公園",
         "toilet_name": "金杉公園トイレ",
@@ -4820,7 +4820,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:3:1",
+        "id": "public_facility:2414",
         "source": "public_facility",
         "name": "文京総合体育館",
         "toilet_name": "車いすピクトグラムのみ表示",
@@ -4855,7 +4855,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13000:4:1",
+        "id": "public_facility:137",
         "source": "public_facility",
         "name": "台東都税事務所",
         "toilet_name": "車椅子使用者対応トイレ",
@@ -4890,7 +4890,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13118:12:1",
+        "id": "public_facility:5011",
         "source": "public_facility",
         "name": "日暮里南公園",
         "toilet_name": "日暮里南公園トイレ",
@@ -4925,7 +4925,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:3:2",
+        "id": "public_facility:2415",
         "source": "public_facility",
         "name": "文京総合体育館",
         "toilet_name": "車いすピクトグラムのみ表示",
@@ -4960,7 +4960,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13105:3:3",
+        "id": "public_facility:2416",
         "source": "public_facility",
         "name": "文京総合体育館",
         "toilet_name": "車いすピクトグラムのみ表示",
@@ -4995,7 +4995,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:19:1",
+        "id": "public_facility:2494",
         "source": "public_facility",
         "name": "台東区立　金曽木公園",
         "toilet_name": "金曽木公園トイレ",
@@ -5030,7 +5030,7 @@
         ]
       },
       "properties": {
-        "id": "public_facility:13106:3:1",
+        "id": "public_facility:2502",
         "source": "public_facility",
         "name": "千束１丁目公衆トイレ",
         "toilet_name": "千束一丁目公衆トイレ",
