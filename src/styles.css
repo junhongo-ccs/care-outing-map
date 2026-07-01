@@ -19,7 +19,7 @@
   --panel-solid: #ffffff;
   --line: rgba(0, 0, 0, 0.1);
   --text-muted: rgba(0, 0, 0, 0.56);
-  --blue: #0071e3;
+  --blue: #0033ff;
   --green: #2e9d58;
   --yellow: #f4b400;
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
@@ -157,8 +157,8 @@ h1 {
 }
 
 .care-select select:focus {
-  border-color: rgba(0, 113, 227, 0.65);
-  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.16);
+  border-color: rgba(0, 51, 255, 0.65);
+  box-shadow: 0 0 0 3px rgba(0, 51, 255, 0.16);
 }
 
 .side-panel {
@@ -220,19 +220,29 @@ h1 {
 }
 
 .area-search input:focus {
-  border-color: rgba(0, 113, 227, 0.65);
-  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.16);
+  border-color: rgba(0, 51, 255, 0.65);
+  box-shadow: 0 0 0 3px rgba(0, 51, 255, 0.16);
 }
 
 .area-search button {
-  background: var(--blue);
-  border: 0;
+  background: #ffffff;
+  border: 2px solid #4662d3;
   border-radius: 12px;
-  color: #ffffff;
+  color: var(--blue);
   cursor: pointer;
   font-size: 13px;
   font-weight: 700;
   padding: 0 14px;
+  transition:
+    background 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.area-search button:hover {
+  background: rgba(0, 51, 255, 0.06);
+  box-shadow: 0 0 0 3px rgba(0, 51, 255, 0.1);
+  transform: translateY(-1px);
 }
 
 .area-error {
@@ -281,8 +291,8 @@ h1 {
 }
 
 .result-card.is-selected {
-  border-color: rgba(0, 113, 227, 0.65);
-  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.16);
+  border-color: rgba(0, 51, 255, 0.65);
+  box-shadow: 0 0 0 3px rgba(0, 51, 255, 0.16);
 }
 
 .result-card.is-selected .result-meta svg {
@@ -328,8 +338,8 @@ h1 {
 }
 
 .badge.good {
-  background: rgba(0, 113, 227, 0.12);
-  color: #0066cc;
+  background: var(--blue);
+  color: #ffffff;
 }
 
 .badge.muted {
@@ -345,7 +355,7 @@ h1 {
 
 .score-ring {
   align-items: center;
-  background: #0071e3;
+  background: #20b2aa;
   border-radius: 50%;
   color: #ffffff;
   display: inline-flex;
@@ -357,7 +367,7 @@ h1 {
 }
 
 .selected-header p {
-  color: #0066cc;
+  color: #008080;
   font-size: 12px;
   font-weight: 700;
   margin: 0 0 2px;
@@ -524,9 +534,62 @@ h1 {
   padding: 6px 8px;
 }
 
+.toilet-map-marker {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  position: relative;
+}
+
+.toilet-map-marker::after {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(70, 98, 211, 0.72));
+  box-shadow: 0 0 0 1px rgba(70, 98, 211, 0.22);
+  content: "";
+  height: 34px;
+  left: 50%;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-50%);
+  width: 2px;
+}
+
+.toilet-map-marker-label {
+  bottom: calc(100% + 2px);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.12;
+  max-width: 160px;
+  text-align: center;
+  text-shadow:
+    0 1px 0 #4662d3,
+    1px 0 0 #4662d3,
+    0 -1px 0 rgba(70, 98, 211, 0.82),
+    -1px 0 0 rgba(70, 98, 211, 0.82),
+    0 2px 5px rgba(0, 0, 0, 0.28);
+  white-space: nowrap;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.toilet-map-marker.is-selected .toilet-map-marker-label {
+  font-size: 14px;
+}
+
+.toilet-map-marker.is-selected::after {
+  height: 54px;
+}
+
+.toilet-map-marker-pin {
+  display: flex;
+}
+
 .static-map {
   background:
-    radial-gradient(circle at 43% 45%, rgba(0, 113, 227, 0.22), transparent 22%),
+    radial-gradient(circle at 43% 45%, rgba(0, 51, 255, 0.22), transparent 22%),
     linear-gradient(135deg, #dfe8ec 0%, #cfd9dd 42%, #bfc9d1 100%);
 }
 
@@ -589,7 +652,7 @@ h1 {
 
 .toilet-dot.is-selected span {
   box-shadow:
-    0 0 0 5px rgba(0, 113, 227, 0.25),
+    0 0 0 5px rgba(0, 51, 255, 0.25),
     0 7px 18px rgba(0, 0, 0, 0.22);
   height: 22px;
   width: 22px;

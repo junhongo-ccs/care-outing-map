@@ -39,3 +39,9 @@
 - Photo failures should show a clear fallback instead of broken image icons.
 - Selected result card should show `詳しく見る`; unselected cards should remain quiet.
 
+### 5. Future Voice Search
+
+- Browser built-in speech recognition was tested for Japanese area/facility search, but accuracy was not good enough for the current PoC.
+- If voice search is pursued seriously, consider Google Cloud Speech-to-Text.
+- Accuracy may improve, but API keys and credentials should not be handled directly in the frontend.
+- A small backend, such as a Render Web Service, would be needed to call Cloud Speech-to-Text safely.

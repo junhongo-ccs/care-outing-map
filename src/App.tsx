@@ -63,7 +63,7 @@ function truncateText(value: string, maxLength: number) {
 export function App() {
   const [mode, setMode] = useState<CareMode>("wheelchair");
   const [areaId, setAreaId] = useState("ueno");
-  const [query, setQuery] = useState("上野");
+  const [query, setQuery] = useState("");
   const [toilets, setToilets] = useState<ToiletFeature[]>([]);
   const [selected, setSelected] = useState<ToiletFeature | null>(null);
   const [modalToilet, setModalToilet] = useState<ToiletFeature | null>(null);
@@ -501,7 +501,7 @@ function MapView({
     markersRef.current = [];
 
     async function drawMarkers() {
-      const [{ Marker3DElement }, { PinElement }] = (await Promise.all([
+      const [{ MarkerInteractiveElement }, { PinElement }] = (await Promise.all([
         google.maps.importLibrary("maps3d"),
         google.maps.importLibrary("marker"),
       ])) as [google.maps.Maps3DLibrary, google.maps.MarkerLibrary];
@@ -510,20 +510,30 @@ function MapView({
         const [lng, lat] = toilet.geometry.coordinates;
         const isSelected = selected?.properties.id === toilet.properties.id;
         const score = scoreForMode(toilet, mode);
-        const marker = new Marker3DElement({
+        const marker = new MarkerInteractiveElement({
           position: { lat, lng, altitude: isSelected ? 70 : 35 },
           altitudeMode: "RELATIVE_TO_GROUND",
-          extruded: true,
-          label: toilet.properties.name,
+          anchorLeft: "-50%",
+          anchorTop: "-100%",
+          title: toilet.properties.name,
         });
         const pin = new PinElement({
-            background: score >= 75 ? "#0071e3" : score >= 55 ? "#34a853" : "#fbbc04",
+            background: score >= 75 ? "#0033ff" : score >= 55 ? "#34a853" : "#fbbc04",
             borderColor: "#ffffff",
             glyphColor: "#ffffff",
             glyphText: isSelected ? "●" : "",
             scale: isSelected ? 1.25 : 1,
           });
-        marker.append(pin.element ?? pin);
+        const markerContent = document.createElement("div");
+        markerContent.className = `toilet-map-marker${isSelected ? " is-selected" : ""}`;
+        const label = document.createElement("span");
+        label.className = "toilet-map-marker-label";
+        label.textContent = truncateText(toilet.properties.name || toilet.properties.toilet_name, 15);
+        const pinWrap = document.createElement("div");
+        pinWrap.className = "toilet-map-marker-pin";
+        pinWrap.append(pin.element ?? pin);
+        markerContent.append(label, pinWrap);
+        marker.append(markerContent);
         marker.addEventListener("click", () => handleMapPinClick(toilet));
         marker.addEventListener("gmp-click", () => handleMapPinClick(toilet));
         mapRef.current!.append(marker);
