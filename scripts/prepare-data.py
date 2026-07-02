@@ -39,6 +39,13 @@ def distance_meters(a, b):
     return round(2 * radius * math.asin(math.sqrt(h)))
 
 
+def facility_name(row, source):
+    name = (row.get("施設名") or row.get("鉄道駅名") or "").strip()
+    if source == "railway_station" and name and not name.endswith("駅"):
+        return f"{name}駅"
+    return name
+
+
 def read_toilet_features():
     features = []
     sources = [
@@ -61,7 +68,7 @@ def read_toilet_features():
                 props = {
                     "id": f"{source}:{row_index}",
                     "source": source,
-                    "name": row.get("施設名") or row.get("鉄道駅名") or "",
+                    "name": facility_name(row, source),
                     "toilet_name": row.get("トイレ名") or "",
                     "floor": row.get("設置フロア") or "",
                     "address": row.get("市区町村・番地") or "",

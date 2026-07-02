@@ -108,7 +108,13 @@ export function App() {
         modeScore: scoreForMode(feature, mode),
         matches: featureMatchesMode(feature, mode),
       }))
-      .sort((a, b) => Number(b.matches) - Number(a.matches) || b.modeScore - a.modeScore)
+      .sort(
+        (a, b) =>
+          Number(b.matches) - Number(a.matches) ||
+          b.modeScore - a.modeScore ||
+          (a.feature.properties.distance_to_ueno_station_m ?? 9999) -
+            (b.feature.properties.distance_to_ueno_station_m ?? 9999),
+      )
       .slice(0, 16);
   }, [mode, nearbyToilets]);
 
@@ -184,16 +190,23 @@ export function App() {
         <div className="top-status">
           <span>{activeArea.label} 1.5km圏</span>
         </div>
-        <label className="care-select">
+        <div className="care-mode-control" aria-label="ケアモード">
           <span>ケアモード</span>
-          <select value={mode} onChange={(event) => setMode(event.target.value as CareMode)}>
+          <div className="care-mode-options" role="group" aria-label="ケアモード">
             {careModes.map((careMode) => (
-              <option key={careMode.id} value={careMode.id}>
+              <button
+                aria-pressed={mode === careMode.id}
+                className={mode === careMode.id ? "is-active" : ""}
+                key={careMode.id}
+                onClick={() => setMode(careMode.id)}
+                title={careMode.description}
+                type="button"
+              >
                 {careMode.label}
-              </option>
+              </button>
             ))}
-          </select>
-        </label>
+          </div>
+        </div>
       </header>
 
       <aside className="side-panel" aria-label="検索と結果">

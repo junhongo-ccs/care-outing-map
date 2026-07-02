@@ -27,7 +27,7 @@
       "properties": {
         "id": "railway_station:655",
         "source": "railway_station",
-        "name": "上野",
+        "name": "上野駅",
         "toilet_name": "多機能トイレ",
         "floor": "1F",
         "address": "台東区上野7丁目",
@@ -62,7 +62,7 @@
       "properties": {
         "id": "railway_station:657",
         "source": "railway_station",
-        "name": "上野",
+        "name": "上野駅",
         "toilet_name": "多機能トイレ",
         "floor": "3F",
         "address": "台東区上野7丁目",
@@ -97,7 +97,7 @@
       "properties": {
         "id": "railway_station:656",
         "source": "railway_station",
-        "name": "上野",
+        "name": "上野駅",
         "toilet_name": "多機能化粧室",
         "floor": "1F",
         "address": "台東区上野7丁目",
@@ -132,7 +132,7 @@
       "properties": {
         "id": "railway_station:658",
         "source": "railway_station",
-        "name": "上野",
+        "name": "上野駅",
         "toilet_name": "多機能トイレ",
         "floor": "3F",
         "address": "台東区上野7丁目",
@@ -342,7 +342,7 @@
       "properties": {
         "id": "railway_station:343",
         "source": "railway_station",
-        "name": "上野",
+        "name": "上野駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "台東区東上野3丁目19番6号",
@@ -377,7 +377,7 @@
       "properties": {
         "id": "railway_station:344",
         "source": "railway_station",
-        "name": "上野",
+        "name": "上野駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "台東区東上野3丁目19番6号",
@@ -797,7 +797,7 @@
       "properties": {
         "id": "railway_station:117",
         "source": "railway_station",
-        "name": "京成上野",
+        "name": "京成上野駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "台東区上野公園1番60号",
@@ -832,7 +832,7 @@
       "properties": {
         "id": "railway_station:118",
         "source": "railway_station",
-        "name": "京成上野",
+        "name": "京成上野駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "台東区上野公園1番60号",
@@ -902,7 +902,7 @@
       "properties": {
         "id": "railway_station:119",
         "source": "railway_station",
-        "name": "京成上野",
+        "name": "京成上野駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B2F",
         "address": "台東区上野公園1番60号",
@@ -1637,7 +1637,7 @@
       "properties": {
         "id": "railway_station:530",
         "source": "railway_station",
-        "name": "稲荷町",
+        "name": "稲荷町駅",
         "toilet_name": "多機能トイレ",
         "floor": "B1F",
         "address": "台東区東上野3丁目33番11号",
@@ -1777,7 +1777,7 @@
       "properties": {
         "id": "railway_station:529",
         "source": "railway_station",
-        "name": "稲荷町",
+        "name": "稲荷町駅",
         "toilet_name": "多機能トイレ",
         "floor": "B1F",
         "address": "台東区東上野3丁目33番11号",
@@ -2477,7 +2477,7 @@
       "properties": {
         "id": "railway_station:470",
         "source": "railway_station",
-        "name": "仲御徒町",
+        "name": "仲御徒町駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "台東区上野5丁目24番12号",
@@ -2512,7 +2512,7 @@
       "properties": {
         "id": "railway_station:653",
         "source": "railway_station",
-        "name": "御徒町",
+        "name": "御徒町駅",
         "toilet_name": "多機能トイレ",
         "floor": "1F",
         "address": "台東区上野5丁目",
@@ -2617,7 +2617,7 @@
       "properties": {
         "id": "railway_station:659",
         "source": "railway_station",
-        "name": "鶯谷",
+        "name": "鶯谷駅",
         "toilet_name": "多機能化粧室",
         "floor": "1F",
         "address": "台東区根岸1丁目",
@@ -2687,7 +2687,7 @@
       "properties": {
         "id": "railway_station:519",
         "source": "railway_station",
-        "name": "上野広小路",
+        "name": "上野広小路駅",
         "toilet_name": "多機能トイレ",
         "floor": "B1F",
         "address": "台東区上野3丁目29番3号",
@@ -2827,7 +2827,7 @@
       "properties": {
         "id": "railway_station:471",
         "source": "railway_station",
-        "name": "仲御徒町",
+        "name": "仲御徒町駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B2F",
         "address": "台東区上野5丁目24番12号",
@@ -2862,7 +2862,7 @@
       "properties": {
         "id": "railway_station:654",
         "source": "railway_station",
-        "name": "御徒町",
+        "name": "御徒町駅",
         "toilet_name": "多機能トイレ",
         "floor": "1F",
         "address": "台東区上野5丁目",
@@ -3037,7 +3037,7 @@
       "properties": {
         "id": "railway_station:497",
         "source": "railway_station",
-        "name": "湯島",
+        "name": "湯島駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "文京区湯島3丁目47番10号",
@@ -3072,7 +3072,7 @@
       "properties": {
         "id": "railway_station:162",
         "source": "railway_station",
-        "name": "新御徒町",
+        "name": "新御徒町駅",
         "toilet_name": "多機能トイレ",
         "floor": "B1F",
         "address": "台東区小島2丁目21番18号",
@@ -3317,7 +3317,7 @@
       "properties": {
         "id": "railway_station:501",
         "source": "railway_station",
-        "name": "入谷",
+        "name": "入谷駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "台東区下谷2丁目15番1号",
@@ -3422,7 +3422,7 @@
       "properties": {
         "id": "railway_station:509",
         "source": "railway_station",
-        "name": "根津",
+        "name": "根津駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "文京区根津1丁目3番5号",
@@ -3562,7 +3562,7 @@
       "properties": {
         "id": "railway_station:500",
         "source": "railway_station",
-        "name": "入谷",
+        "name": "入谷駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "台東区下谷2丁目15番1号",
@@ -3982,7 +3982,7 @@
       "properties": {
         "id": "railway_station:510",
         "source": "railway_station",
-        "name": "根津",
+        "name": "根津駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "文京区根津1丁目3番5号",
@@ -4262,7 +4262,7 @@
       "properties": {
         "id": "railway_station:502",
         "source": "railway_station",
-        "name": "田原町",
+        "name": "田原町駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "台東区西浅草1丁目1番18号",
@@ -4297,7 +4297,7 @@
       "properties": {
         "id": "railway_station:503",
         "source": "railway_station",
-        "name": "田原町",
+        "name": "田原町駅",
         "toilet_name": "バリアフリートイレ",
         "floor": "B1F",
         "address": "台東区西浅草1丁目1番18号",
@@ -4332,7 +4332,7 @@
       "properties": {
         "id": "railway_station:518",
         "source": "railway_station",
-        "name": "末広町",
+        "name": "末広町駅",
         "toilet_name": "多機能トイレ",
         "floor": "B1F",
         "address": "千代田区外神田4丁目7番3号",
@@ -4682,7 +4682,7 @@
       "properties": {
         "id": "railway_station:163",
         "source": "railway_station",
-        "name": "浅草",
+        "name": "浅草駅",
         "toilet_name": "多機能トイレ",
         "floor": "B1F",
         "address": "台東区西浅草3丁目1番11号",
@@ -4717,7 +4717,7 @@
       "properties": {
         "id": "railway_station:164",
         "source": "railway_station",
-        "name": "浅草",
+        "name": "浅草駅",
         "toilet_name": "多機能トイレ",
         "floor": "B1F",
         "address": "台東区西浅草3丁目1番11号",

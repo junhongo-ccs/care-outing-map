@@ -4,139 +4,239 @@
 
 車椅子の家族、高齢者同伴、乳幼児連れなど、外出時にトイレ・休憩・移動経路への不安がある人のために、東京都の公開データを使って「出かける前に安心材料を確認できる」地図体験をつくる。
 
-## Concept
+## コンセプト
 
-Care Outing Map is not just a toilet finder.
+Care Outing Map は、単なるトイレ検索アプリではありません。
 
-It is a pre-outing decision support map that helps families and caregivers answer:
+家族や介助者が外出前に次のような不安を確認するための、事前判断支援マップです。
 
-- Can we reach the destination without getting stuck?
-- Are there wheelchair-accessible toilets nearby?
-- Is there a diaper changing table for children?
-- Are there backup options if the first place is not usable?
-- Can we understand the area before going there?
+- 目的地まで無理なく行けそうか
+- 近くに車椅子対応トイレがあるか
+- 乳幼児のおむつ交換台があるか
+- 最初の候補が使えなかった場合の代替候補があるか
+- 行く前に周辺の様子を把握できるか
 
-## Current App
+## 現在のアプリ
 
-The current app is a browser-based React/Vite PoC. It shows Tokyo accessible toilet data around a selected area, with a Google 3D Maps view when a valid Google Maps API key is available.
+現在のアプリは、React/Vite で作っているブラウザ版 PoC です。選択したエリア周辺の東京都バリアフリートイレデータを表示し、有効な Google Maps API キーがある場合は Google 3D Maps で表示します。
 
-Implemented:
+実装済みの機能:
 
-- Area search and presets for Tokyo outing areas such as Ueno, Shinjuku, Shibuya, Asakusa, Oshiage, Tokyo Station, and Ikebukuro
-- Tokyo-wide accessible toilet GeoJSON loaded from `public/data/processed/tokyo_accessible_toilets.geojson`
-- Care modes:
-  - Wheelchair family
-  - Parent with baby/small child
-  - Older adult companion
-- Candidate toilet ranking by a rule-based outing confidence score
-- Result list with selected-card highlighting
-- Google 3D Maps markers for toilet candidates
-- Static fallback map preview when Google Maps is unavailable
-- Detail modal with equipment reasons, score band, and public photo URLs
-- Photo carousel for entrance and inside toilet photos when both are available
-- Camera focus tuned so selected toilets appear in the visible map area outside the left result panel
+- 上野、新宿、渋谷、浅草、押上、東京駅、池袋などのエリアプリセットとエリア検索
+- `public/data/processed/tokyo_accessible_toilets.geojson` から読み込む東京都全域のバリアフリートイレ GeoJSON
+- ケアモード
+  - 車椅子の家族
+  - 乳幼児連れ
+  - 高齢者同伴
+- ルールベースの安心度スコアによる候補トイレのランキング
+- 選択中カードのハイライト付き候補リスト
+- Google 3D Maps 上のトイレ候補ピン
+- Google Maps が利用できない場合の静的プレビュー地図
+- 設備理由、安心度ラベル、公開写真 URL を表示する詳細モーダル
+- 入口写真と内部写真がある場合の写真カルーセル
+- 左側の結果パネルに隠れない位置へ選択中トイレを見せるカメラ調整
 
-The app intentionally does not try to replace Google Maps for general outing discovery. Food, places, routes, and broader map exploration are left to Google Maps. Care Outing Map focuses on the missing care-planning layer: accessible toilets, equipment, photos, backup candidates, and confidence.
+このアプリは、飲食店・観光地・経路検索など、一般的なおでかけ探索で Google Maps を置き換えることを目的にしていません。Care Outing Map は、バリアフリートイレ、設備、写真、代替候補、安心度といった「ケアを伴う外出計画」に不足しがちな情報レイヤーに集中します。
 
-## Current Limitations
+## スコアと表示順
 
-- This is still a PoC, not an official accessibility guarantee.
-- Scores are planning aids based on source data attributes.
-- Real-time toilet availability is not supported.
-- Google 3D Maps marker tap behavior is limited by Google Maps event handling. The reliable detail flow is selecting a result card and using `詳しく見る`.
-- Public photo URLs are referenced from Tokyo Open Data. Photo files are not stored in this repository.
-- Mobile and tablet layouts are secondary; the primary target is desktop around 1920x1080.
-- The railway-station source currently checked into `data/raw/` is the R0606/02 CSV. The newer R07/01 railway CSV has been identified but is not yet integrated.
+スコアは、東京都オープンデータの項目から計算している「外出前の判断を助けるための目安」です。公式なアクセシビリティ評価ではありません。実装は `src/data.ts` にあります。
 
-## Spec
+アプリでは、選択したエリアの中心から1.5km以内にあるトイレだけを候補にします。その候補を並び替え、上位16件を地図のピンと左側の候補リストに表示します。
 
-See [docs/spec.md](docs/spec.md).
+表示順は次の通りです。
 
-## Deployment
+1. 選択中のケアモードに合うトイレを先に表示する
+2. スコアが高いトイレを先に表示する
+3. スコアが同じ場合は、現在のエリア中心に近いトイレを先に表示する
 
-Target deployment service: Render.
+### 安心度ラベル
 
-The app can be deployed as a Render Static Site.
+- 75-100点: `安心度 高`
+- 55-74点: `安心度 中`
+- 35-54点: `条件つき`
+- 0-34点: `要確認`
 
-Environment variables should be stored in `.env` locally and configured in Render's environment settings for deployment. `.env` is intentionally ignored by Git. Use `.env.example` as the shared template.
+表示スコアは最大100点です。加点の合計が100点を超えても、画面上は100点として表示します。
 
-## Local Environment
+### 全ケアモード共通の加点
 
-Create a local `.env` file from `.env.example` and set your Google Maps API key.
+どのケアモードでも、次の点数が加算されます。
+
+- エリア中心から500m以内: +18
+- エリア中心から501m-1000m: +10
+- エリア中心から1001m-1500m: +4
+- トイレ入口の写真URLがある: +8
+
+実装上、距離のプロパティ名は `distance_to_ueno_station_m` のままですが、アプリ内では現在選択しているエリア中心からの距離として再計算しています。常に上野駅からの距離という意味ではありません。
+
+### 車椅子の家族モード
+
+このモードに「合う」と判定する条件:
+
+- 車椅子が出入りできる
+- 車椅子が転回できる
+- 便座に手すりがある
+
+モード別の加点:
+
+- 車椅子が出入りできる: +25
+- 車椅子が転回できる: +25
+- 便座に手すりがある: +18
+- 大型ベッドがある: +10
+- 非常用呼び出しボタンがある: +8
+
+考え方:
+
+車椅子利用者が入れるか、向きを変えられるか、移乗しやすいか、困ったときに呼び出せるかを重視しています。
+
+### 乳幼児連れモード
+
+このモードに「合う」と判定する条件:
+
+- 乳幼児用おむつ交換台等がある
+
+モード別の加点:
+
+- 乳幼児用おむつ交換台等がある: +35
+- 乳幼児用椅子がある: +20
+- 車椅子が出入りできる: +10
+- トイレ入口の写真URLがある: +10
+
+考え方:
+
+おむつ交換と、乳幼児を座らせられる設備を重視しています。車椅子が出入りできる広さは、ベビーカーや介助者が一緒に動く場合にも役立つため加点しています。
+
+補足: このモードでは、入口写真が「乳幼児連れモードの加点」と「全モード共通の加点」の両方で加点されます。外出前に入口の様子を確認できる施設を少し強く評価するためです。
+
+### 高齢者同伴モード
+
+このモードに「合う」と判定する条件:
+
+- 便座に手すりがある
+
+モード別の加点:
+
+- 便座に手すりがある: +35
+- 車椅子が出入りできる: +15
+- 車椅子が転回できる: +10
+- データソースが公共施設トイレ: +8
+
+考え方:
+
+手すりがあることと、移動距離が短いことを重視しています。公共施設は外出中の予備候補として説明しやすいことが多いため、少しだけ加点しています。
+
+ただし、公共施設加点によって駅トイレが下に押し出されすぎないように、スコアが同じ場合は距離が近い順に並べています。たとえば奥沢駅周辺では、奥沢駅のトイレが候補から漏れないようにしています。
+
+### マーカーの色
+
+地図ピンの色も同じスコアを使っています。ただし、現在は「1.5km以内の候補をスコア順に並べて上位16件だけ表示する」仕様のため、主要エリアではほとんどの場合、地図上に出るピンは75点以上の青になります。
+
+- 青: 75点以上
+- 緑: 55-74点
+- 黄: 54点以下
+
+緑や黄は、候補が少ないエリアや、将来表示件数を増やした場合のために残している区分です。現状のプリセットエリアでは、実質的には青ピン中心の表示になります。
+
+## 現在の制約
+
+- まだ PoC であり、公式なアクセシビリティ保証ではありません。
+- スコアはデータ項目に基づく計画支援用の目安です。
+- トイレのリアルタイム利用可否には対応していません。
+- Google 3D Maps のピンタップ挙動は、Google Maps 側のイベント処理の制約を受けます。確実な詳細確認フローは、候補カードを選択して `詳しく見る` を使う方法です。
+- 公開写真 URL は東京都オープンデータを参照しています。写真ファイル自体はこのリポジトリには保存していません。
+- モバイル・タブレット対応は優先度低めです。主な想定画面は 1920x1080 前後のデスクトップです。
+- `data/raw/` に現在入っている鉄道駅ソースは R0606/02 CSV です。新しい R07/01 鉄道 CSV は確認済みですが、まだ統合していません。
+
+## 仕様
+
+詳細仕様は [docs/spec.md](docs/spec.md) を参照してください。
+
+## デプロイ
+
+想定デプロイ先は Render です。
+
+このアプリは Render Static Site としてデプロイできます。
+
+環境変数は、ローカルでは `.env` に保存し、Render では環境変数設定に登録します。`.env` は Git 管理から除外しています。共有用のテンプレートとして `.env.example` を使ってください。
+
+## ローカル環境
+
+`.env.example` をもとにローカルの `.env` ファイルを作成し、Google Maps API キーを設定します。
 
 ```env
 VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 ```
 
-Do not commit `.env`.
+`.env` はコミットしないでください。
 
-For the Google Maps API key, restrict allowed referrers in Google Cloud Console. During development, allow:
+Google Maps API キーは、Google Cloud Console で許可リファラーを制限してください。開発中は次を許可します。
 
 ```text
 http://localhost:5173/*
 ```
 
-After Render deployment, add the Render URL as another allowed referrer.
+Render にデプロイした後は、Render の URL も許可リファラーに追加してください。
 
-## Development
+## 開発
 
-Install dependencies:
+依存パッケージをインストールします。
 
 ```sh
 npm install
 ```
 
-Start the local app:
+ローカルアプリを起動します。
 
 ```sh
 npm run dev
 ```
 
-Open:
+ブラウザで開きます。
 
 ```text
 http://localhost:5173
 ```
 
-The local app will still show a static preview if `VITE_GOOGLE_MAPS_API_KEY` is missing or if Google 3D Maps fails to initialize.
+`VITE_GOOGLE_MAPS_API_KEY` が未設定の場合、または Google 3D Maps の初期化に失敗した場合でも、ローカルアプリは静的プレビュー地図を表示します。
 
-Build for Render:
+Render 向けにビルドします。
 
 ```sh
 npm run build
 ```
 
-Render Static Site settings:
+Render Static Site の設定:
 
 ```text
 Build command: npm run build
 Publish directory: dist
 ```
 
-## Data Preparation
+## データ準備
 
-Processed GeoJSON files are generated from the raw Tokyo CSV and Overpass JSON files.
+処理済み GeoJSON ファイルは、東京都の生 CSV と Overpass JSON から生成します。
 
 ```sh
 python scripts/prepare-data.py
 ```
 
-The app reads deployable GeoJSON files from `public/data/processed/`.
+アプリは、配信用 GeoJSON を `public/data/processed/` から読み込みます。
 
-Current processed data:
+現在の処理済みデータ:
 
-- Tokyo-wide accessible toilets: 8,944
-- Ueno 1km accessible toilets: 93
-- Ueno 1.5km accessible toilets: 144
-- Ueno OSM POIs: 90, retained in processed data but not currently rendered in the app
+- 東京都全域のバリアフリートイレ: 8,944件
+- 上野 1km 圏のバリアフリートイレ: 93件
+- 上野 1.5km 圏のバリアフリートイレ: 144件
+- 上野 OSM POI: 90件。処理済みデータには残していますが、現在のアプリ画面では表示していません。
 
-The data preparation step also assigns one unique `properties.id` per source CSV row so the result list and selected marker state do not collide across records.
+データ準備処理では、ソース CSV の各行に対して一意な `properties.id` も付与します。これにより、候補リストと選択中マーカーの状態がレコード間で衝突しないようにしています。
 
-See [data/README.md](data/README.md) for source URLs, encoding notes, and attribution reminders.
+ソース URL、文字コード、クレジット表記の注意点は [data/README.md](data/README.md) を参照してください。
 
-## UI Reference
+## UI 参考
 
-The UI direction references Apple Japan-style design notes from `awesome-design-md-jp`.
+UI の方向性は、`awesome-design-md-jp` の Apple Japan 風デザインメモを参考にしています。
 
-Reference:
+参考:
 https://github.com/kzhrknt/awesome-design-md-jp/tree/main/design-md/apple
