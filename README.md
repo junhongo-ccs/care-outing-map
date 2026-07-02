@@ -213,6 +213,19 @@ Build command: npm run build
 Publish directory: dist
 ```
 
+## ブランドマークの差し替え
+
+ヘッダー左上のブランドマークは `public/brand-mark.svg` を表示しています。
+
+自分でデザインした画像に差し替える場合は、同じファイル名で `public/brand-mark.svg` を置き換えてください。PNG を使いたい場合は、画像を `public/brand-mark.png` などで追加し、`src/App.tsx` の `<img src="/brand-mark.svg" ... />` を PNG のパスに変更します。
+
+推奨サイズ:
+
+- 正方形
+- 96px 以上
+- 背景つきの場合は角丸を含めてデザイン
+- 小さく表示しても意味が伝わるシンプルな形
+
 ## データ準備
 
 処理済み GeoJSON ファイルは、東京都の生 CSV と Overpass JSON から生成します。

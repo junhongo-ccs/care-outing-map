@@ -1,7 +1,6 @@
 import {
   ChevronLeft,
   ChevronRight,
-  MapPinned,
   Search,
   Toilet,
   X,
@@ -180,7 +179,7 @@ export function App() {
       <header className="top-bar">
         <div className="brand-block">
           <span className="brand-mark">
-            <MapPinned size={20} />
+            <img src="/brand-mark.svg" alt="" aria-hidden="true" />
           </span>
           <div>
             <p className="eyebrow">Care Outing Map</p>
