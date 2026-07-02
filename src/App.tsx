@@ -1,6 +1,7 @@
 import {
   ChevronLeft,
   ChevronRight,
+  Menu,
   Search,
   Toilet,
   X,
@@ -20,6 +21,7 @@ import { loadGoogleMaps } from "./googleMapsLoader";
 import type { CareMode, FeatureCollection, ToiletFeature } from "./types";
 
 const mapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY as string | undefined;
+const MOBILE_LAYOUT_QUERY = "(max-width: 768px)";
 const AREA_CAMERA_RANGE = 1800;
 const AREA_CAMERA_TILT = 48;
 const AREA_CAMERA_HEADING = 24;
@@ -59,7 +61,53 @@ function truncateText(value: string, maxLength: number) {
   return value.length > maxLength ? `${value.slice(0, maxLength)}...` : value;
 }
 
+function useIsMobileLayout() {
+  const [isMobile, setIsMobile] = useState(
+    () => typeof window !== "undefined" && window.matchMedia(MOBILE_LAYOUT_QUERY).matches,
+  );
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia(MOBILE_LAYOUT_QUERY);
+    const handleChange = (event: MediaQueryListEvent) => setIsMobile(event.matches);
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
+
+  return isMobile;
+}
+
+function CareModeControl({
+  mode,
+  onChange,
+  className,
+}: {
+  mode: CareMode;
+  onChange: (mode: CareMode) => void;
+  className: string;
+}) {
+  return (
+    <div className={`care-mode-control ${className}`} aria-label="ケアモード">
+      <span>ケアモード</span>
+      <div className="care-mode-options" role="group" aria-label="ケアモード">
+        {careModes.map((careMode) => (
+          <button
+            aria-pressed={mode === careMode.id}
+            className={mode === careMode.id ? "is-active" : ""}
+            key={careMode.id}
+            onClick={() => onChange(careMode.id)}
+            title={careMode.description}
+            type="button"
+          >
+            {careMode.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function App() {
+  const isMobileLayout = useIsMobileLayout();
   const [mode, setMode] = useState<CareMode>("wheelchair");
   const [areaId, setAreaId] = useState("ueno");
   const [query, setQuery] = useState("");
@@ -69,6 +117,7 @@ export function App() {
   const [loadError, setLoadError] = useState<string | null>(null);
   const [customArea, setCustomArea] = useState<{ label: string; center: { lat: number; lng: number } } | null>(null);
   const [areaError, setAreaError] = useState<string | null>(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const activeArea = customArea ?? areaPresets.find((area) => area.id === areaId) ?? areaPresets[0];
   useEffect(() => {
@@ -123,6 +172,12 @@ export function App() {
   }, [areaId, mode]);
 
   function handleToiletSelect(feature: ToiletFeature) {
+    if (isMobileLayout) {
+      setSelected(feature);
+      setModalToilet(feature);
+      setIsMenuOpen(false);
+      return;
+    }
     if (selected?.properties.id === feature.properties.id) {
       setModalToilet(feature);
       return;
@@ -140,6 +195,7 @@ export function App() {
       setCustomArea(null);
       setAreaId(matched.id);
       setQuery(matched.label);
+      setIsMenuOpen(false);
       return;
     }
 
@@ -160,6 +216,7 @@ export function App() {
     }
     setCustomArea({ label: normalized, center: { lat: location.lat(), lng: location.lng() } });
     setAreaId("custom");
+    setIsMenuOpen(false);
   }
 
   return (
@@ -171,12 +228,24 @@ export function App() {
           mode={mode}
           center={activeArea.center}
           areaLabel={activeArea.label}
+          isMobileLayout={isMobileLayout}
           onSelect={handleToiletSelect}
           onOpen={setModalToilet}
         />
       </section>
 
       <header className="top-bar">
+        <button
+          className="hamburger-button"
+          onClick={() => {
+            setIsMenuOpen(true);
+            setModalToilet(null);
+          }}
+          type="button"
+          aria-label="メニューを開く"
+        >
+          <Menu size={20} />
+        </button>
         <div className="brand-block">
           <span className="brand-mark">
             <img src="/brand-mark.svg" alt="" aria-hidden="true" />
@@ -189,26 +258,30 @@ export function App() {
         <div className="top-status">
           <span>{activeArea.label} 1.5km圏</span>
         </div>
-        <div className="care-mode-control" aria-label="ケアモード">
-          <span>ケアモード</span>
-          <div className="care-mode-options" role="group" aria-label="ケアモード">
-            {careModes.map((careMode) => (
-              <button
-                aria-pressed={mode === careMode.id}
-                className={mode === careMode.id ? "is-active" : ""}
-                key={careMode.id}
-                onClick={() => setMode(careMode.id)}
-                title={careMode.description}
-                type="button"
-              >
-                {careMode.label}
-              </button>
-            ))}
-          </div>
-        </div>
+        <CareModeControl mode={mode} onChange={setMode} className="care-mode-control--topbar" />
       </header>
 
-      <aside className="side-panel" aria-label="検索と結果">
+      <div
+        className={`side-panel-overlay ${isMenuOpen ? "is-open" : ""}`}
+        onClick={() => setIsMenuOpen(false)}
+        role="presentation"
+      />
+
+      <aside
+        className={`side-panel ${isMenuOpen ? "is-open" : ""}`}
+        aria-label="検索と結果"
+        aria-hidden={isMobileLayout && !isMenuOpen}
+        {...({ inert: isMobileLayout && !isMenuOpen ? "" : undefined } as Record<string, string | undefined>)}
+      >
+        <div className="side-panel-header">
+          <span>検索と候補</span>
+          <button className="side-panel-close" onClick={() => setIsMenuOpen(false)} type="button" aria-label="閉じる">
+            <X size={18} />
+          </button>
+        </div>
+
+        <CareModeControl mode={mode} onChange={setMode} className="care-mode-control--drawer" />
+
         <section className="panel-section">
           <div className="section-title">
             <Search size={18} />
@@ -374,6 +447,7 @@ function MapView({
   mode,
   center,
   areaLabel,
+  isMobileLayout,
   onSelect,
   onOpen,
 }: {
@@ -382,6 +456,7 @@ function MapView({
   mode: CareMode;
   center: { lat: number; lng: number };
   areaLabel: string;
+  isMobileLayout: boolean;
   onSelect: (feature: ToiletFeature) => void;
   onOpen: (feature: ToiletFeature) => void;
 }) {
@@ -397,6 +472,10 @@ function MapView({
   }, [selected]);
 
   function handleMapPinClick(feature: ToiletFeature) {
+    if (isMobileLayout) {
+      onSelect(feature);
+      return;
+    }
     if (selectedRef.current?.properties.id === feature.properties.id) {
       onOpen(feature);
       return;
@@ -556,7 +635,7 @@ function MapView({
     void drawMarkers().catch((error) => {
       setMapError(error instanceof Error ? error.message : "3D markers failed to load");
     });
-  }, [mode, onOpen, onSelect, selected, toilets]);
+  }, [isMobileLayout, mode, onOpen, onSelect, selected, toilets]);
 
   if (!mapsApiKey || useMapFallback) {
     return (
@@ -566,6 +645,7 @@ function MapView({
         mode={mode}
         center={center}
         areaLabel={areaLabel}
+        isMobileLayout={isMobileLayout}
         onSelect={onSelect}
         onOpen={onOpen}
         warning={mapError ?? "Google Maps APIキー未設定時のプレビューです。"}
@@ -588,6 +668,7 @@ function StaticMapPreview({
   mode,
   center,
   areaLabel,
+  isMobileLayout,
   onSelect,
   onOpen,
   warning,
@@ -597,6 +678,7 @@ function StaticMapPreview({
   mode: CareMode;
   center: { lat: number; lng: number };
   areaLabel: string;
+  isMobileLayout: boolean;
   onSelect: (feature: ToiletFeature) => void;
   onOpen: (feature: ToiletFeature) => void;
   warning: string;
@@ -624,6 +706,10 @@ function StaticMapPreview({
   const openFromPin = (event: React.MouseEvent<HTMLButtonElement>, toilet: ToiletFeature) => {
     event.preventDefault();
     event.stopPropagation();
+    if (isMobileLayout) {
+      onSelect(toilet);
+      return;
+    }
     if (selected?.properties.id === toilet.properties.id) {
       onOpen(toilet);
       return;
