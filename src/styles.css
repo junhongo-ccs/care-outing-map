@@ -442,6 +442,14 @@ h1 {
   margin: 12px 0 0;
 }
 
+.data-attribution {
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 11px;
+  line-height: 1.4;
+  margin: 10px 0 0;
+  text-align: right;
+}
+
 .modal-backdrop {
   align-items: center;
   background: rgba(0, 0, 0, 0.18);

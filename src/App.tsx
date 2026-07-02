@@ -372,6 +372,7 @@ function ToiletModal({ selected, mode, onClose }: { selected: ToiletFeature | nu
             { src: selected.properties.photo_inside, label: "内部" },
           ]}
         />
+        <p className="data-attribution">出典: 東京都オープンデータ</p>
       </section>
     </div>
   );
