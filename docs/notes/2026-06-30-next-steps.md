@@ -45,3 +45,9 @@
 - If voice search is pursued seriously, consider Google Cloud Speech-to-Text.
 - Accuracy may improve, but API keys and credentials should not be handled directly in the frontend.
 - A small backend, such as a Render Web Service, would be needed to call Cloud Speech-to-Text safely.
+
+### 6. Next Visual Assets
+
+- Create OGP metadata and preview image for sharing the deployed app.
+- Create and wire up favicon assets.
+- Keep the visual direction consistent with the current care outing / accessible toilet map concept.
