@@ -609,12 +609,12 @@ function MapView({
           title: toilet.properties.name,
         });
         const pin = new PinElement({
-            background: score >= 75 ? "#0033ff" : score >= 55 ? "#34a853" : "#fbbc04",
-            borderColor: "#ffffff",
-            glyphColor: "#ffffff",
-            glyphText: isSelected ? "●" : "",
-            scale: isSelected ? 1.25 : 1,
-          });
+          background: score >= 75 ? "#0033ff" : score >= 55 ? "#34a853" : "#fbbc04",
+          borderColor: "#ffffff",
+          glyphColor: "#ffffff",
+          ...(isSelected ? { glyphSrc: "/pin-focus-glyph.svg" } : { glyphText: "" }),
+          scale: isSelected ? 2.5 : 1,
+        });
         const markerContent = document.createElement("div");
         markerContent.className = `toilet-map-marker${isSelected ? " is-selected" : ""}`;
         const label = document.createElement("span");
