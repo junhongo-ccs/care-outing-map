@@ -288,7 +288,7 @@ export function App() {
             <span>行き先エリア</span>
           </div>
           <form className="area-search" onSubmit={handleAreaSubmit}>
-            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="例: 渋谷、東京都美術館、代々木公園" />
+            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="例: 渋谷、東京都美術館" />
             <button type="submit">検索</button>
           </form>
           {areaError ? <p className="area-error">{areaError}</p> : null}

@@ -838,6 +838,11 @@ h1 {
     text-align: center;
   }
 
+  .area-search input,
+  .area-search button {
+    font-size: 16px;
+  }
+
   .side-panel-overlay {
     background: rgba(0, 0, 0, 0.32);
     display: block;
