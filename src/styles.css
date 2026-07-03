@@ -44,6 +44,7 @@ button {
 .app-shell {
   width: 100vw;
   height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   position: relative;
   background: #d9e2e8;
@@ -756,6 +757,7 @@ h1 {
   .app-shell {
     width: 100vw;
     height: 100vh;
+    height: 100dvh;
   }
 
   .top-bar {
@@ -886,6 +888,7 @@ h1 {
   .toilet-modal {
     border-radius: 18px 18px 0 0;
     max-height: min(72vh, 620px);
+    max-height: min(72dvh, 620px);
     overflow-y: auto;
     padding: 16px;
     width: 100%;
