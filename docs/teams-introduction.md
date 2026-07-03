@@ -2,6 +2,8 @@
 
 東京都の福祉トイレ公開データを使って、外出前・外出中に使える「東京おでかけ安心3Dマップ」を試作しました。
 
+同じローカルフォルダをcodexとclaudeでお互いを補完させたりレビューさせて作成・調整しています。
+
 公開URL:
 https://care-outing-map.onrender.com/
 
@@ -31,7 +33,7 @@ https://care-outing-map.onrender.com/
 
 なお、全モード共通で、検索地点からの距離や写真の有無もスコアに少し反映しています。細かい配点はREADMEに記載しています。
 
-実装メモ:
+●実装メモ:
 
 - フロントエンドは React + TypeScript + Vite
 - 地図は Google Maps JavaScript API の `maps3d` ライブラリを利用
@@ -41,7 +43,7 @@ https://care-outing-map.onrender.com/
 - データはGeoJSONとして前処理済み
 - APIキー未設定や3D地図の初期化失敗時は、静的プレビュー地図にフォールバック
 
-データ出典とライセンス:
+●データ出典とライセンス:
 
 - データ名: 車椅子使用者対応トイレのバリアフリー情報
 - 公開元: 東京都
@@ -49,7 +51,7 @@ https://care-outing-map.onrender.com/
 - ライセンス: クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）
 - 加工内容: 検索・表示用にGeoJSONへ変換し、エリア中心からの距離、ケアモード別スコア、表示用IDなどを付与
 
-少し苦労したところ:
+●少し苦労したところ:
 
 Google 3D Mapsは、通常の地図表示と同じ感覚ではそのまま出ませんでした。`maps3d` / `Map3DElement` を使うには、Google Maps JavaScript API を `v=beta` で読み込む必要がありました。
 
