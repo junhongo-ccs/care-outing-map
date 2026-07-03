@@ -795,17 +795,15 @@ h1 {
   }
 
   .brand-block {
-    flex: 1 1 auto;
+    left: 50%;
+    max-width: calc(100% - 104px);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .top-status {
-    flex: 0 1 auto;
-    font-size: 11px;
-    margin-left: 8px;
-    min-width: 0;
-    overflow: hidden;
-    padding-left: 8px;
-    text-overflow: ellipsis;
+    display: none;
   }
 
   .care-mode-control--topbar {
@@ -881,12 +879,38 @@ h1 {
   .modal-backdrop {
     align-items: flex-end;
     inset: 56px 0 0;
+    justify-content: center;
+    padding: 0 10px env(safe-area-inset-bottom, 0);
   }
 
   .toilet-modal {
     border-radius: 18px 18px 0 0;
-    max-height: 75vh;
+    max-height: min(72vh, 620px);
     overflow-y: auto;
+    padding: 16px;
     width: 100%;
+  }
+
+  .selected-header {
+    padding-right: 38px;
+  }
+
+  .photo-carousel,
+  .photo-fallback {
+    margin-top: 16px;
+  }
+
+  .toilet-photo,
+  .photo-fallback {
+    max-height: 190px;
+  }
+
+  .toilet-photo {
+    border-radius: 14px;
+  }
+
+  .photo-label {
+    left: 10px;
+    top: 10px;
   }
 }
