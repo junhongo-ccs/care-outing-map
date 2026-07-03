@@ -815,6 +815,27 @@ h1 {
 
   .care-mode-control--drawer {
     display: flex;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .care-mode-control--drawer > span {
+    display: none;
+  }
+
+  .care-mode-control--drawer .care-mode-options {
+    display: grid;
+    flex: 1 1 auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    min-width: 0;
+    width: 100%;
+  }
+
+  .care-mode-control--drawer .care-mode-options button {
+    font-size: clamp(10px, 3.2vw, 12px);
+    min-width: 0;
+    padding: 0 6px;
+    text-align: center;
   }
 
   .side-panel-overlay {
