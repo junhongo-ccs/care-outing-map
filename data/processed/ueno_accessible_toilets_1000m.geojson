@@ -1,0 +1,3274 @@
+{
+  "type": "FeatureCollection",
+  "name": "ueno_accessible_toilets_1000m",
+  "metadata": {
+    "feature_count": 93,
+    "source_counts": {
+      "railway_station": 19,
+      "public_facility": 74
+    },
+    "center": {
+      "name": "Ueno Station",
+      "lat": 35.713768,
+      "lng": 139.777254
+    },
+    "radius_m": 1000
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7777,
+          35.71366
+        ]
+      },
+      "properties": {
+        "id": "railway_station:655",
+        "source": "railway_station",
+        "name": "上野駅",
+        "toilet_name": "多機能トイレ",
+        "floor": "1F",
+        "address": "台東区上野7丁目",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_027_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_027_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777839,
+          35.713803
+        ]
+      },
+      "properties": {
+        "id": "railway_station:657",
+        "source": "railway_station",
+        "name": "上野駅",
+        "toilet_name": "多機能トイレ",
+        "floor": "3F",
+        "address": "台東区上野7丁目",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_027_03_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_027_03_2.jpg",
+        "notes": "",
+        "created_ym": "202111",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7767,
+          35.71285
+        ]
+      },
+      "properties": {
+        "id": "railway_station:656",
+        "source": "railway_station",
+        "name": "上野駅",
+        "toilet_name": "多機能化粧室",
+        "floor": "1F",
+        "address": "台東区上野7丁目",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_027_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_027_02_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 114
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.775931,
+          35.713614
+        ]
+      },
+      "properties": {
+        "id": "railway_station:658",
+        "source": "railway_station",
+        "name": "上野駅",
+        "toilet_name": "多機能トイレ",
+        "floor": "3F",
+        "address": "台東区上野7丁目",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_027_04_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_027_04_2.jpg",
+        "notes": "",
+        "created_ym": "202111",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 121
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7755,
+          35.71428
+        ]
+      },
+      "properties": {
+        "id": "public_facility:209",
+        "source": "public_facility",
+        "name": "東京文化会館",
+        "toilet_name": "エントランスロビー横右",
+        "floor": "1F",
+        "address": "台東区上野公園5番地45号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_005_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_005_01_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。公演がない場合は終了時間が早まることがある。",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 168
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7755,
+          35.71428
+        ]
+      },
+      "properties": {
+        "id": "public_facility:210",
+        "source": "public_facility",
+        "name": "東京文化会館",
+        "toilet_name": "エントランスロビー横左",
+        "floor": "1F",
+        "address": "台東区上野公園5番地45号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_005_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_005_02_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。公演がない場合は終了時間が早まることがある。",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 168
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779521,
+          35.712604
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2421",
+        "source": "public_facility",
+        "name": "東京都台東区役所本庁舎",
+        "toilet_name": "１階西側だれでもトイレ",
+        "floor": "1F",
+        "address": "台東区東上野四丁目5番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_02_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779521,
+          35.712604
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2423",
+        "source": "public_facility",
+        "name": "東京都台東区役所本庁舎",
+        "toilet_name": "2階西側だれでもトイレ",
+        "floor": "2F",
+        "address": "台東区東上野四丁目5番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_04_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_04_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779521,
+          35.712604
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2424",
+        "source": "public_facility",
+        "name": "東京都台東区役所本庁舎",
+        "toilet_name": "３階西側だれでもトイレ",
+        "floor": "3F",
+        "address": "台東区東上野四丁目5番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_05_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_05_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776305,
+          35.711726
+        ]
+      },
+      "properties": {
+        "id": "railway_station:343",
+        "source": "railway_station",
+        "name": "上野駅",
+        "toilet_name": "バリアフリートイレ",
+        "floor": "B1F",
+        "address": "台東区東上野3丁目19番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_007_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_007_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 243
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777275,
+          35.711555
+        ]
+      },
+      "properties": {
+        "id": "railway_station:344",
+        "source": "railway_station",
+        "name": "上野駅",
+        "toilet_name": "バリアフリートイレ",
+        "floor": "B1F",
+        "address": "台東区東上野3丁目19番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_007_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_007_02_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 246
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.774883,
+          35.714929
+        ]
+      },
+      "properties": {
+        "id": "public_facility:725",
+        "source": "public_facility",
+        "name": "上野恩賜公園",
+        "toilet_name": "2号トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園5番地",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_02_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202011",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77789,
+          35.716127
+        ]
+      },
+      "properties": {
+        "id": "public_facility:731",
+        "source": "public_facility",
+        "name": "上野恩賜公園",
+        "toilet_name": "10号トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園6番地6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_08_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_08_2.jpg",
+        "notes": "",
+        "created_ym": "202111",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 269
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.774178,
+          35.715083
+        ]
+      },
+      "properties": {
+        "id": "public_facility:726",
+        "source": "public_facility",
+        "name": "上野恩賜公園",
+        "toilet_name": "3号トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園5番地6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_03_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_03_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202011",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 314
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.780394,
+          35.712465
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2420",
+        "source": "public_facility",
+        "name": "東京都台東区役所本庁舎",
+        "toilet_name": "１０階東側だれでもトイレ",
+        "floor": "10F",
+        "address": "台東区東上野四丁目5番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 318
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.780394,
+          35.712465
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2422",
+        "source": "public_facility",
+        "name": "東京都台東区役所本庁舎",
+        "toilet_name": "１階東側だれでもトイレ",
+        "floor": "1F",
+        "address": "台東区東上野四丁目5番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_03_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_001_03_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 318
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.775091,
+          35.716084
+        ]
+      },
+      "properties": {
+        "id": "public_facility:729",
+        "source": "public_facility",
+        "name": "上野恩賜公園",
+        "toilet_name": "7号トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園8番地4号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_06_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_06_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202011",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 323
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773689,
+          35.714369
+        ]
+      },
+      "properties": {
+        "id": "public_facility:730",
+        "source": "public_facility",
+        "name": "上野恩賜公園",
+        "toilet_name": "8号トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園5番地",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_07_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_07_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202011",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 329
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77961,
+          35.711247
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2431",
+        "source": "public_facility",
+        "name": "東上野地区センター（東上野区民館）",
+        "toilet_name": "１階バリアフリートイレ",
+        "floor": "1F",
+        "address": "台東区東上野三丁目24番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_008_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_008_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": false,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 352
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781461,
+          35.714603
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2445",
+        "source": "public_facility",
+        "name": "台東保健所",
+        "toilet_name": "2階ピクトグラム表示のみ",
+        "floor": "2F",
+        "address": "台東区東上野四丁目22番8号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_03_001_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_03_001_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202401",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 391
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781461,
+          35.714603
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2446",
+        "source": "public_facility",
+        "name": "台東保健所",
+        "toilet_name": "4階ピクトグラム表示のみ",
+        "floor": "4F",
+        "address": "台東区東上野四丁目22番8号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_03_001_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_03_001_02_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202401",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 391
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.774008,
+          35.716179
+        ]
+      },
+      "properties": {
+        "id": "public_facility:727",
+        "source": "public_facility",
+        "name": "上野恩賜公園",
+        "toilet_name": "4号トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園8番地22号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_04_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_04_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202011",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 397
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773501,
+          35.711297
+        ]
+      },
+      "properties": {
+        "id": "railway_station:117",
+        "source": "railway_station",
+        "name": "京成上野駅",
+        "toilet_name": "バリアフリートイレ",
+        "floor": "B1F",
+        "address": "台東区上野公園1番60号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/03_001_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/03_001_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202401",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 436
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773464,
+          35.711244
+        ]
+      },
+      "properties": {
+        "id": "railway_station:118",
+        "source": "railway_station",
+        "name": "京成上野駅",
+        "toilet_name": "バリアフリートイレ",
+        "floor": "B1F",
+        "address": "台東区上野公園1番60号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/03_001_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/03_001_02_2.jpg",
+        "notes": "改札外コンコース",
+        "created_ym": "201911",
+        "updated_ym": "202401",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 443
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773818,
+          35.710886
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2501",
+        "source": "public_facility",
+        "name": "西郷銅像下公衆トイレ",
+        "toilet_name": "西郷銅像下公衆トイレ",
+        "floor": "1F",
+        "address": "台東区上野四丁目10番8号前",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_08_002_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_08_002_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 446
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773498,
+          35.71112
+        ]
+      },
+      "properties": {
+        "id": "railway_station:119",
+        "source": "railway_station",
+        "name": "京成上野駅",
+        "toilet_name": "バリアフリートイレ",
+        "floor": "B2F",
+        "address": "台東区上野公園1番60号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/03_001_03_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/03_001_03_2.jpg",
+        "notes": "ホーム階",
+        "created_ym": "202011",
+        "updated_ym": "202401",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 449
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.774448,
+          35.717272
+        ]
+      },
+      "properties": {
+        "id": "public_facility:728",
+        "source": "public_facility",
+        "name": "上野恩賜公園",
+        "toilet_name": "5号トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園8番地51号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_05_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_05_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202011",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 465
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772114,
+          35.712962
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1112",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "弁天門横トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_13_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_13_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 473
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772114,
+          35.712962
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1113",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "弁天門横トイレ女子内",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_14_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_14_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 473
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772114,
+          35.712962
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1114",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "弁天門横トイレ男子内",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_15_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_15_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 473
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772458,
+          35.715783
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1100",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "日本の動物舎トイレ1",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_01_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 488
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772458,
+          35.715783
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1101",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "日本の動物舎トイレ2",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_02_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 488
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7733,
+          35.71692
+        ]
+      },
+      "properties": {
+        "id": "public_facility:201",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "Ｂ3ギャラリー横女",
+        "floor": "B3F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_11_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_11_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7733,
+          35.71692
+        ]
+      },
+      "properties": {
+        "id": "public_facility:202",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "B3ギャラリー横男",
+        "floor": "B3F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_12_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_12_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 500
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7734,
+          35.71702
+        ]
+      },
+      "properties": {
+        "id": "public_facility:191",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "１階企画展示室横女",
+        "floor": "1F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_01_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7734,
+          35.71702
+        ]
+      },
+      "properties": {
+        "id": "public_facility:192",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "１階企画展示室横男",
+        "floor": "1F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_02_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7734,
+          35.71702
+        ]
+      },
+      "properties": {
+        "id": "public_facility:197",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "２階企画展示室横女",
+        "floor": "2F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_07_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_07_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7734,
+          35.71702
+        ]
+      },
+      "properties": {
+        "id": "public_facility:198",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "２階企画展示室横男",
+        "floor": "2F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_08_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_08_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7734,
+          35.71702
+        ]
+      },
+      "properties": {
+        "id": "public_facility:203",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "ＬＢ階企画展示室横",
+        "floor": "LBF",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_13_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_13_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7737,
+          35.7173
+        ]
+      },
+      "properties": {
+        "id": "public_facility:206",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "講堂ロビーB1女",
+        "floor": "LBF",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_16_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_16_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 507
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7737,
+          35.7173
+        ]
+      },
+      "properties": {
+        "id": "public_facility:207",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "講堂ロビーB1男",
+        "floor": "LBF",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_17_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_17_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 507
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7729,
+          35.71695
+        ]
+      },
+      "properties": {
+        "id": "public_facility:194",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "１階第３公募展示室Ｂ横",
+        "floor": "1F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_04_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_04_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 529
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7729,
+          35.71695
+        ]
+      },
+      "properties": {
+        "id": "public_facility:200",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "２階第３公募展示室Ｂ横",
+        "floor": "2F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_10_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_10_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 529
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.783154,
+          35.713532
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2444",
+        "source": "public_facility",
+        "name": "社会教育センター",
+        "toilet_name": "B1身体障害者用更衣室（トイレ付）",
+        "floor": "B1F",
+        "address": "台東区東上野六丁目16番8号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_02_003_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_02_003_02_2.jpg",
+        "notes": "清島温水プール内（スポーツ振興課）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 533
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773,
+          35.71715
+        ]
+      },
+      "properties": {
+        "id": "public_facility:205",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "ＬＢ階第２公募室Ｂ横",
+        "floor": "LBF",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_15_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_15_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 538
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7734,
+          35.7175
+        ]
+      },
+      "properties": {
+        "id": "public_facility:196",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "２階レストラン横",
+        "floor": "2F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_06_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_06_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 542
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.782574,
+          35.711452
+        ]
+      },
+      "properties": {
+        "id": "railway_station:530",
+        "source": "railway_station",
+        "name": "稲荷町駅",
+        "toilet_name": "多機能トイレ",
+        "floor": "B1F",
+        "address": "台東区東上野3丁目33番11号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_120_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_120_02_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 545
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7731,
+          35.71734
+        ]
+      },
+      "properties": {
+        "id": "public_facility:204",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "ＬＢ階第１公募室Ｂ横",
+        "floor": "LBF",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_14_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_14_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 546
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7733,
+          35.71749
+        ]
+      },
+      "properties": {
+        "id": "public_facility:208",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "授乳室内",
+        "floor": "LBF",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_18_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_18_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 547
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.783333,
+          35.713726
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2443",
+        "source": "public_facility",
+        "name": "社会教育センター",
+        "toilet_name": "1階身体障害者用トイレ",
+        "floor": "1F",
+        "address": "台東区東上野六丁目16番8号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_02_003_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_02_003_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202401",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 549
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.78254,
+          35.711286
+        ]
+      },
+      "properties": {
+        "id": "railway_station:529",
+        "source": "railway_station",
+        "name": "稲荷町駅",
+        "toilet_name": "多機能トイレ",
+        "floor": "B1F",
+        "address": "台東区東上野3丁目33番11号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_120_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_120_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 551
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773,
+          35.71733
+        ]
+      },
+      "properties": {
+        "id": "public_facility:193",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "１階第１公募展示室Ｂ横",
+        "floor": "1F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_03_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_03_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 552
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773,
+          35.71733
+        ]
+      },
+      "properties": {
+        "id": "public_facility:199",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "２階第１公募展示室Ｂ横",
+        "floor": "2F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_09_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_09_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 552
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77106,
+          35.714004
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1106",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "子ども動物園エントランス棟トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_07_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_07_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 560
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7731,
+          35.71752
+        ]
+      },
+      "properties": {
+        "id": "public_facility:195",
+        "source": "public_facility",
+        "name": "東京都美術館",
+        "toilet_name": "カフェ横",
+        "floor": "1F",
+        "address": "台東区上野公園8番地36号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_05_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_07_05_004_05_2.jpg",
+        "notes": "トイレ利用時間は施設の開館時間による。特別展開催中の金曜日の終了時間は20:00まで。サマーナイトミュージアム時は終了時間の延長あり。第１、第３の月曜日休館（祝日・振替休日の場合は翌平日）。＊特別展・企画展：月曜日休室（祝日・振替休日の場合は翌平日）。年末年始",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 561
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.779855,
+          35.709166
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2476",
+        "source": "public_facility",
+        "name": "台東区立　西町公園",
+        "toilet_name": "西町公園トイレ",
+        "floor": "1F",
+        "address": "台東区東上野二丁目23番3号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_004_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_004_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 563
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772712,
+          35.710275
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2452",
+        "source": "public_facility",
+        "name": "台東区立下町風俗資料館",
+        "toilet_name": "1階多目的トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園2番地1号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_05_001_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_05_001_01_2.jpg",
+        "notes": "令和5年4月から令和7年2月まで工事中のため使用不可",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": false,
+        "distance_to_ueno_station_m": 565
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772117,
+          35.716861
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1105",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "旧正門前トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_06_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_06_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 577
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771635,
+          35.716331
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1110",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "東園象舎前トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_11_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_11_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 582
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773277,
+          35.717934
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2453",
+        "source": "public_facility",
+        "name": "台東区立旧東京音楽学校奏楽堂",
+        "toilet_name": "1階東側女子トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園8番地43号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_05_002_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_05_002_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202211",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": false,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 586
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773251,
+          35.71795
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2454",
+        "source": "public_facility",
+        "name": "台東区立旧東京音楽学校奏楽堂",
+        "toilet_name": "1階東側男子トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園8番地43号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_05_002_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_05_002_02_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202211",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": false,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 589
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781388,
+          35.709605
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2508",
+        "source": "public_facility",
+        "name": "東京都台東区立老人福祉センター",
+        "toilet_name": "４階だれでもトイレ",
+        "floor": "4F",
+        "address": "台東区東上野二丁目25番14号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_10_004_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_10_004_01_2.jpg",
+        "notes": "",
+        "created_ym": "202501",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 595
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781388,
+          35.709605
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2509",
+        "source": "public_facility",
+        "name": "東京都台東区立老人福祉センター",
+        "toilet_name": "５階だれでもトイレ",
+        "floor": "5F",
+        "address": "台東区東上野二丁目25番14号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_10_004_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_10_004_02_2.jpg",
+        "notes": "",
+        "created_ym": "202501",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 595
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77226,
+          35.709934
+        ]
+      },
+      "properties": {
+        "id": "public_facility:724",
+        "source": "public_facility",
+        "name": "上野恩賜公園",
+        "toilet_name": "11号トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園2番地",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_016_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202011",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 621
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.771224,
+          35.717151
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1111",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "東園中央広場トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_12_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_12_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 662
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.769895,
+          35.714161
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1116",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "カフェカメレオン売店前",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_17_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_17_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "202011",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 666
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770162,
+          35.71558
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1104",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "東園見晴台トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_05_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_05_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 671
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770341,
+          35.716119
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1117",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "東園無料休憩所",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_18_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_18_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "202011",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770341,
+          35.716119
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1118",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "東園無料休憩所",
+        "floor": "2F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_19_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_19_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "202011",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 677
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.769368,
+          35.714609
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1115",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "パンダのふるさとゾーン内トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_16_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_16_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "202011",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 718
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7764,
+          35.7073
+        ]
+      },
+      "properties": {
+        "id": "railway_station:470",
+        "source": "railway_station",
+        "name": "仲御徒町駅",
+        "toilet_name": "バリアフリートイレ",
+        "floor": "B1F",
+        "address": "台東区上野5丁目24番12号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_081_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_081_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202401",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 723
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7749,
+          35.70748
+        ]
+      },
+      "properties": {
+        "id": "railway_station:653",
+        "source": "railway_station",
+        "name": "御徒町駅",
+        "toilet_name": "多機能トイレ",
+        "floor": "1F",
+        "address": "台東区上野5丁目",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_026_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_026_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 731
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773434,
+          35.707908
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1405",
+        "source": "public_facility",
+        "name": "都営大江戸線上野御徒町駅",
+        "toilet_name": "だれでもトイレ",
+        "floor": "B1F",
+        "address": "台東区上野五丁目26番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_18_09_072_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_18_09_072_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 737
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768889,
+          35.714582
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1107",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "西園休憩所脇トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_08_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_08_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 761
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7788,
+          35.72051
+        ]
+      },
+      "properties": {
+        "id": "railway_station:659",
+        "source": "railway_station",
+        "name": "鶯谷駅",
+        "toilet_name": "多機能化粧室",
+        "floor": "1F",
+        "address": "台東区根岸1丁目",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_028_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_028_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "201911",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768683,
+          35.713559
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1108",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "西園両生爬虫類館トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_09_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_09_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 774
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772888,
+          35.707665
+        ]
+      },
+      "properties": {
+        "id": "railway_station:519",
+        "source": "railway_station",
+        "name": "上野広小路駅",
+        "toilet_name": "多機能トイレ",
+        "floor": "B1F",
+        "address": "台東区上野3丁目29番3号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_114_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_114_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.768476,
+          35.713928
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1109",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "池之端門前トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_10_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_10_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 793
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77021,
+          35.718068
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1102",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "ゴリラ舎横女子トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_03_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_03_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 796
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77021,
+          35.718068
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1103",
+        "source": "public_facility",
+        "name": "恩賜上野動物園",
+        "toilet_name": "ゴリラ舎横男子トイレ",
+        "floor": "1F",
+        "address": "台東区上野公園9番地83号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_04_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_084_04_2.jpg",
+        "notes": "利用は開園スケジュールに基づく（休園日は利用不可）",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 796
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776295,
+          35.706584
+        ]
+      },
+      "properties": {
+        "id": "railway_station:471",
+        "source": "railway_station",
+        "name": "仲御徒町駅",
+        "toilet_name": "バリアフリートイレ",
+        "floor": "B2F",
+        "address": "台東区上野5丁目24番12号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_081_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_081_02_2.jpg",
+        "notes": "",
+        "created_ym": "202011",
+        "updated_ym": "202401",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 804
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7746,
+          35.70662
+        ]
+      },
+      "properties": {
+        "id": "railway_station:654",
+        "source": "railway_station",
+        "name": "御徒町駅",
+        "toilet_name": "多機能トイレ",
+        "floor": "1F",
+        "address": "台東区上野5丁目",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_026_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/14_026_02_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202011",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 830
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.785577,
+          35.71703
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2486",
+        "source": "public_facility",
+        "name": "台東区立　入谷南公園",
+        "toilet_name": "入谷南公園トイレ",
+        "floor": "1F",
+        "address": "台東区松が谷三丁目23番7号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_014_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_014_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 834
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.777882,
+          35.706221
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2480",
+        "source": "public_facility",
+        "name": "台東区立　御徒町公園",
+        "toilet_name": "御徒町公園トイレ",
+        "floor": "1F",
+        "address": "台東区台東四丁目13番3号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_008_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_008_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 841
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.781956,
+          35.707094
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1406",
+        "source": "public_facility",
+        "name": "都営大江戸線新御徒町駅",
+        "toilet_name": "だれでもトイレ",
+        "floor": "B1F",
+        "address": "台東区元浅草一丁目5番2号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_18_09_073_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_18_09_073_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 855
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.769186,
+          35.709462
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2436",
+        "source": "public_facility",
+        "name": "上野地区センター（上野区民館）",
+        "toilet_name": "バリアフリートイレ",
+        "floor": "1F",
+        "address": "台東区池之端一丁目1番12号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_010_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_01_010_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202501",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": false,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 872
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.76982,
+          35.708495
+        ]
+      },
+      "properties": {
+        "id": "railway_station:497",
+        "source": "railway_station",
+        "name": "湯島駅",
+        "toilet_name": "バリアフリートイレ",
+        "floor": "B1F",
+        "address": "文京区湯島3丁目47番10号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_098_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/10_098_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202401",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 891
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.782706,
+          35.70697
+        ]
+      },
+      "properties": {
+        "id": "railway_station:162",
+        "source": "railway_station",
+        "name": "新御徒町駅",
+        "toilet_name": "多機能トイレ",
+        "floor": "B1F",
+        "address": "台東区小島2丁目21番18号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/05_002_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/05_002_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": true,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 902
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772231,
+          35.706647
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2496",
+        "source": "public_facility",
+        "name": "台東区立　黒門児童遊園",
+        "toilet_name": "黒門児童遊園トイレ",
+        "floor": "1F",
+        "address": "台東区上野一丁目19番3号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_021_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_021_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 912
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.787147,
+          35.71192
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2479",
+        "source": "public_facility",
+        "name": "台東区立　松葉公園",
+        "toilet_name": "松葉公園トイレ",
+        "floor": "1F",
+        "address": "台東区松が谷一丁目12番6号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_007_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_007_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 917
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7684228,
+          35.70903258
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1072",
+        "source": "public_facility",
+        "name": "旧岩崎邸庭園",
+        "toilet_name": "管理棟1F便所",
+        "floor": "1F",
+        "address": "台東区池之端一丁目3番45号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_076_02_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_076_02_2.jpg",
+        "notes": "有料公園につき、開園時間のみ、入園者のみ利用可",
+        "created_ym": "202501",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": true,
+        "ostomate_warm_water": true,
+        "large_bed": false,
+        "diaper_changing_table": true,
+        "baby_chair": true,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 956
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7684228,
+          35.70903258
+        ]
+      },
+      "properties": {
+        "id": "public_facility:1073",
+        "source": "public_facility",
+        "name": "旧岩崎邸庭園",
+        "toilet_name": "管理棟3F便所",
+        "floor": "3F",
+        "address": "台東区池之端一丁目3番45号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_076_03_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13000_15_07_076_03_2.jpg",
+        "notes": "有料公園につき、開園時間のみ、入園者のみ利用可。簡易車椅子トイレ",
+        "created_ym": "202501",
+        "updated_ym": "",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": false,
+        "backrest": true,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 956
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.780465,
+          35.705571
+        ]
+      },
+      "properties": {
+        "id": "public_facility:2485",
+        "source": "public_facility",
+        "name": "台東区立　竹町公園",
+        "toilet_name": "竹町公園トイレ",
+        "floor": "1F",
+        "address": "台東区台東四丁目21番3号",
+        "photo_entrance": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_013_01_1.jpg",
+        "photo_inside": "http://www.opendata.metro.tokyo.jp/fukushihoken/wc-photos/13106_99_07_013_01_2.jpg",
+        "notes": "",
+        "created_ym": "201901",
+        "updated_ym": "202111",
+        "deleted_ym": "",
+        "wheelchair_entry": true,
+        "wheelchair_turning_space": true,
+        "backrest": false,
+        "handrails": true,
+        "ostomate": false,
+        "ostomate_warm_water": false,
+        "large_bed": false,
+        "diaper_changing_table": false,
+        "baby_chair": false,
+        "emergency_call_button": true,
+        "distance_to_ueno_station_m": 956
+      }
+    }
+  ]
+}

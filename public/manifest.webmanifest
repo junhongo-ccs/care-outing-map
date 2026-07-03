@@ -1,0 +1,18 @@
+{
+  "name": "東京おでかけ安心3Dマップ",
+  "short_name": "安心3Dマップ",
+  "description": "東京都内の福祉トイレを、ケアモード別に探せる3Dマップ。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#d9e2e8",
+  "theme_color": "#20b2aa",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

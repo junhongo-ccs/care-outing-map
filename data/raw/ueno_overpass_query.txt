@@ -1,0 +1,8 @@
+[out:json][timeout:25];
+(
+  nwr["tourism"~"museum|gallery"](35.705,139.770,35.723,139.785);
+  nwr["leisure"="park"](35.705,139.770,35.723,139.785);
+  nwr["amenity"="toilets"](35.705,139.770,35.723,139.785);
+  nwr["amenity"~"library|arts_centre"](35.705,139.770,35.723,139.785);
+);
+out center tags;

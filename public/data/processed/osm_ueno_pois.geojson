@@ -1,0 +1,1900 @@
+{
+  "type": "FeatureCollection",
+  "name": "osm_ueno_pois",
+  "metadata": {
+    "feature_count": 90,
+    "source": "OpenStreetMap via Overpass API"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7766231,
+          35.7144067
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 438797308,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776515,
+          35.7128698
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4178730328,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 120
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7759152,
+          35.7136298
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 11125062244,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7760018,
+          35.7130983
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 401249008,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 135
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7766789,
+          35.7126203
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7248719579,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 138
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.775852,
+          35.7154106
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 203960903,
+        "name": "国立西洋美術館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "",
+        "wikidata": "Q1362629",
+        "distance_to_ueno_station_m": 222
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7762665,
+          35.711886
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 6204348973,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 227
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7772361,
+          35.7115553
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 6204388730,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 246
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7747663,
+          35.7128522
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 441655802,
+        "name": "上野の森美術館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.ueno-mori.org/",
+        "wikidata": "Q11360245",
+        "distance_to_ueno_station_m": 247
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7748887,
+          35.7149342
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 145344157,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 250
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7771753,
+          35.7115134
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 6204388738,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 251
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7765927,
+          35.7159919
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 203960902,
+        "name": "国立科学博物館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.kahaku.go.jp/",
+        "wikidata": "Q74940",
+        "distance_to_ueno_station_m": 254
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7771119,
+          35.7114643
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 6204388737,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 256
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7778918,
+          35.7161215
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4984528570,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 268
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7799259,
+          35.7126533
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4947850854,
+        "name": "たいとうアートギャラリー",
+        "tourism": "gallery",
+        "amenity": "",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 271
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7741847,
+          35.7150826
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 145344144,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 313
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7737452,
+          35.7144121
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 2264347437,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 325
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7750808,
+          35.7161055
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 509851094,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 326
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7806814,
+          35.7124836
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 304931281,
+        "name": "公徳公園",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 341
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773704,
+          35.7120431
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 2264347272,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 374
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7732671,
+          35.7153093
+        ]
+      },
+      "properties": {
+        "osm_type": "relation",
+        "osm_id": 5413419,
+        "name": "上野公園",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "Q746216",
+        "distance_to_ueno_station_m": 399
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7737445,
+          35.7161866
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 2264347890,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 416
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776007,
+          35.7175451
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 11880180711,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 435
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7738619,
+          35.7109761
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 3259269168,
+        "name": "西郷銅像下公衆トイレ",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 436
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7735602,
+          35.7112229
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 6744163202,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 437
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7736849,
+          35.711028
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 6744163197,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 443
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7727882,
+          35.7120795
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 13271409079,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 445
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7768698,
+          35.717849
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 89041321,
+        "name": "東洋館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 455
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7744461,
+          35.7172591
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 2264347756,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 464
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7721239,
+          35.7130941
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 5040902655,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 469
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.782223,
+          35.712453
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 3093498530,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 472
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7730445,
+          35.7112349
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4987573179,
+        "name": "びわ湖長浜観音ハウス",
+        "tourism": "gallery",
+        "amenity": "",
+        "leisure": "",
+        "website": "http://www.nagahama-kannon-house.jp/",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 473
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7724556,
+          35.7154969
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4787165821,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 474
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7725063,
+          35.7158231
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4987598752,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 486
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7731771,
+          35.7171071
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 33440458,
+        "name": "東京都美術館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.tobikan.jp/",
+        "wikidata": "Q864957",
+        "distance_to_ueno_station_m": 523
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7713838,
+          35.7139861
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 509544643,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 531
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7796967,
+          35.7093332
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 175058778,
+        "name": "西町公園",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7712693,
+          35.7140299
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4987661883,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 541
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7825664,
+          35.7112985
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 6172100644,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 553
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7834545,
+          35.7133885
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 587789975,
+        "name": "",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 561
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7798623,
+          35.7091608
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 231210784,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 564
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7727469,
+          35.7102385
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 145344198,
+        "name": "したまちミュージアム",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.taitogeibun.net/shitamachi/",
+        "wikidata": "Q3915464",
+        "distance_to_ueno_station_m": 565
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7752405,
+          35.7186128
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 145344185,
+        "name": "表慶館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 569
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7720981,
+          35.7167829
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 509537319,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 574
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7764941,
+          35.7189135
+        ]
+      },
+      "properties": {
+        "osm_type": "relation",
+        "osm_id": 2737745,
+        "name": "本館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 576
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7721259,
+          35.7168789
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 509537318,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 578
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7733061,
+          35.7179853
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 13881133162,
+        "name": "旧東京音楽学校奏楽堂",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.taitogeibun.net/sougakudou/#",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 589
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7758162,
+          35.7190658
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 33439660,
+        "name": "東京国立博物館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.tnm.jp/",
+        "wikidata": "Q653433",
+        "distance_to_ueno_station_m": 603
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7743251,
+          35.7187438
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 12116276639,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 613
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7740942,
+          35.7186784
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 145344062,
+        "name": "法隆寺宝物館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "",
+        "wikidata": "Q123195811",
+        "distance_to_ueno_station_m": 616
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77514,
+          35.7190741
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 2295399955,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 620
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7722538,
+          35.709922
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 145344149,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773216,
+          35.718342
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 2265563798,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 626
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7712394,
+          35.7171559
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 511390670,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 661
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7837306,
+          35.7165841
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 587787109,
+        "name": "山伏公園",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 663
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7733129,
+          35.7189039
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 152340249,
+        "name": "黒田記念館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.tobunken.go.jp/kuroda/index_e.html",
+        "wikidata": "Q123195608",
+        "distance_to_ueno_station_m": 673
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7701378,
+          35.7155632
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 514394036,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 673
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7701836,
+          35.7157362
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4787165823,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 675
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7848829,
+          35.7142739
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 6261728292,
+        "name": "ギャラリー心",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 691
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7752774,
+          35.7076354
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 13588730450,
+        "name": "QUARK MUSEUM",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.quarkmuseum.com/",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 705
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.773752,
+          35.719485
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 2768956946,
+        "name": "国際こども図書館",
+        "tourism": "",
+        "amenity": "library",
+        "leisure": "",
+        "website": "",
+        "wikidata": "Q4346431",
+        "distance_to_ueno_station_m": 710
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.776544,
+          35.7202847
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4772760706,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 727
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77092,
+          35.709653
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 2265420927,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 732
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.778791,
+          35.7205137
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 9688905438,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770343,
+          35.709748
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 2265424222,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7729984,
+          35.7077711
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 6199799686,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 770
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7719324,
+          35.719192
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 1420785063,
+        "name": "東京藝術大学大学美術館",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://museum.geidai.ac.jp/",
+        "wikidata": "Q11525123",
+        "distance_to_ueno_station_m": 771
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7702784,
+          35.7179894
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 4787165824,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 785
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7708217,
+          35.7089044
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 5235896225,
+        "name": "アートスペース喜屋",
+        "tourism": "",
+        "amenity": "arts_centre",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 794
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7845372,
+          35.7178713
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 587787102,
+        "name": "",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 800
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7836028,
+          35.7189843
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 11900345791,
+        "name": "北上野一丁目 公衆トイレ",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 815
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7774652,
+          35.7063549
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 505256902,
+        "name": "御徒町公園",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "Q42311721",
+        "distance_to_ueno_station_m": 825
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7741441,
+          35.7067506
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 744343955,
+        "name": "おかちまちパンダ広場",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 829
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7741441,
+          35.7067431
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 744343956,
+        "name": "御徒町南口駅前広場",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 830
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7778611,
+          35.7062346
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 519593145,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 839
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7795129,
+          35.7211092
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 238465930,
+        "name": "鶯谷公園",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 841
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.77949,
+          35.7212144
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 526173169,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 852
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.772245,
+          35.7066203
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 507464631,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 914
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7721994,
+          35.7066195
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 7298131181,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 917
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7803272,
+          35.7057601
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 166180328,
+        "name": "竹町公園",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 933
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7804545,
+          35.7055767
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 529344973,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 956
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7738145,
+          35.7223874
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 5718105216,
+        "name": "寛永寺前公衆トイレ",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 1007
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7710053,
+          35.7213055
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 914133670,
+        "name": "下町風俗資料館付設展示場",
+        "tourism": "museum",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.taitogeibun.net/shitamachi/shitamachi_annex/",
+        "wikidata": "Q59268117",
+        "distance_to_ueno_station_m": 1010
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7848709,
+          35.7065559
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 229545036,
+        "name": "小島二丁目交番裏公衆トイレ",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 1056
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7705016,
+          35.7217513
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 821539905,
+        "name": "スカイ ザ バスハウス",
+        "tourism": "gallery",
+        "amenity": "",
+        "leisure": "",
+        "website": "https://www.scaithebathhouse.com/",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 1077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7839004,
+          35.7056938
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 166180330,
+        "name": "小島公園",
+        "tourism": "",
+        "amenity": "",
+        "leisure": "park",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 1080
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7700079,
+          35.7058507
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 5297588279,
+        "name": "",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 1097
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770577,
+          35.7220412
+        ]
+      },
+      "properties": {
+        "osm_type": "node",
+        "osm_id": 8491447527,
+        "name": "K's Green Gallery",
+        "tourism": "gallery",
+        "amenity": "",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 1100
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7842415,
+          35.7055552
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 583977925,
+        "name": "Kojima Park toilet",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 1110
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.770246,
+          35.7229349
+        ]
+      },
+      "properties": {
+        "osm_type": "way",
+        "osm_id": 585320110,
+        "name": "谷中墓地入口 公衆トイレ",
+        "tourism": "",
+        "amenity": "toilets",
+        "leisure": "",
+        "website": "",
+        "wikidata": "",
+        "distance_to_ueno_station_m": 1200
+      }
+    }
+  ]
+}
