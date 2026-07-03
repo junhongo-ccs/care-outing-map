@@ -61,6 +61,13 @@ function truncateText(value: string, maxLength: number) {
   return value.length > maxLength ? `${value.slice(0, maxLength)}...` : value;
 }
 
+function toiletLocationLabel(feature: ToiletFeature) {
+  const floor = feature.properties.floor?.trim();
+  const toiletName = feature.properties.toilet_name?.trim();
+  if (floor && toiletName) return `${floor}・${toiletName}`;
+  return floor || toiletName || "";
+}
+
 function useIsMobileLayout() {
   const [isMobile, setIsMobile] = useState(
     () => typeof window !== "undefined" && window.matchMedia(MOBILE_LAYOUT_QUERY).matches,
@@ -306,12 +313,12 @@ export function App() {
                 className={`result-card ${selected?.properties.id === feature.properties.id ? "is-selected" : ""}`}
                 key={feature.properties.id}
                 onClick={() => handleToiletSelect(feature)}
-                title={feature.properties.name || feature.properties.toilet_name}
+                title={`${feature.properties.name || feature.properties.toilet_name} ${toiletLocationLabel(feature)}`.trim()}
                 type="button"
               >
                 <div className="result-main">
                   <strong>{truncateText(feature.properties.name || feature.properties.toilet_name, 15)}</strong>
-                  <span>{feature.properties.toilet_name || feature.properties.floor}</span>
+                  <span>{toiletLocationLabel(feature)}</span>
                 </div>
                 <div className="result-meta">
                   {selected?.properties.id === feature.properties.id ? <span className="badge good">詳しく見る</span> : null}
@@ -359,7 +366,7 @@ function ToiletModal({ selected, mode, onClose }: { selected: ToiletFeature | nu
             <h2>{selected.properties.name}</h2>
           </div>
         </div>
-        <p className="selected-sub">{selected.properties.toilet_name || selected.properties.floor}</p>
+        <p className="selected-sub">{toiletLocationLabel(selected)}</p>
         <div className="reason-list">
           {reasons.map((reason) => (
             <span key={reason}>{reason}</span>
