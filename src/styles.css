@@ -925,6 +925,10 @@ h1 {
     padding-right: 38px;
   }
 
+  .score-ring {
+    display: none;
+  }
+
   .photo-carousel,
   .photo-fallback {
     margin-top: 16px;
