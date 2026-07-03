@@ -54,6 +54,7 @@ button {
   position: absolute;
   inset: 0;
   overflow: hidden;
+  isolation: isolate;
   z-index: 0;
 }
 
